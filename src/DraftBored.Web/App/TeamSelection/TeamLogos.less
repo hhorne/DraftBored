@@ -1,0 +1,205 @@
+﻿@import 'TeamColors.less';
+
+@logoHeight: 96px;
+@logoWidth: 320px;
+
+.logo {
+	cursor: pointer;
+	display: inline-block;
+	height: @logoHeight;
+	vertical-align: top;
+	width: @logoWidth;
+
+	.overlay {
+		font-size: 24px;
+		line-height: @logoHeight;
+		text-align: center;		
+		opacity: 0;		
+		transition: opacity .60s ease-in;
+		-moz-transition: opacity .60s ease-in;
+		-webkit-transition: opacity .60s ease-in;
+	}
+
+	&.selected .overlay, &:hover .overlay {
+		opacity: 1;
+	    transition: opacity 0.40s ease-in-out;
+		-moz-transition: opacity 0.40s ease-in-out;
+		-webkit-transition: opacity 0.40s ease-in-out;
+	}
+}
+
+.logo-colors(@bgColor, @textColor, @selectedColor) {
+	background-color: @bgColor;
+
+	.overlay {		
+		color: @textColor;
+		line-height: @logoHeight;
+		background-color: fade(@selectedColor, 90%);		
+	}
+}
+
+.logo-img(@shortName) {
+	background-repeat: no-repeat;
+	background-image: url('../App/TeamSelection/retina/portrait/@{shortName}@2x.png');
+	background-size: cover;
+}
+
+.ARI.logo {
+	.logo-colors(@ariColor1, @ariColor3, @ariColor2);
+	.logo-img('ARI');
+}
+
+.ATL.logo {
+	.logo-colors(@atlColor2, @ariColor3, @ariColor1);
+	.logo-img('ATL');
+}
+
+.BAL.logo {
+	.logo-colors(@balColor1, @balColor1, @balColor3);
+	.logo-img('BAL');
+}
+
+.BUF.logo {
+	.logo-colors(@bufColor1, @bufColor3, @bufColor2);
+	.logo-img('BUF');
+}
+
+.CAR.logo {
+	.logo-colors(@carColor1, @carColor4, @carColor2);
+	.logo-img('CAR');
+}
+
+.CHI.logo {
+	.logo-colors(@chiColor1, @chiColor3, @chiColor2);
+	.logo-img('CHI');
+}
+
+.CIN.logo {
+	.logo-colors(@cinColor1, @cinColor3, @cinColor2);
+	.logo-img('CIN');
+}
+
+.CLE.logo {
+	.logo-colors(@cleColor1, @cleColor3, @cleColor2);
+	.logo-img('CLE');
+}
+
+.DAL.logo {
+	.logo-colors(@dalColor1, @dalColor3, @dalColor2);
+	.logo-img('DAL');
+}
+
+.DEN.logo {
+	.logo-colors(@denColor2, @denColor3, @denColor1);
+	.logo-img('DEN');
+}
+
+.DET.logo {
+	.logo-colors(@detColor1, @detColor1, @detColor4);
+	.logo-img('DET');
+}
+
+.GB.logo {
+	.logo-colors(@gbColor1, @gbColor1, @gbColor2);
+	.logo-img('GB');
+}
+
+.HOU.logo {
+	.logo-colors(@houColor1, @houColor3, @houColor2);
+	.logo-img('HOU');
+}
+
+.IND.logo {
+	.logo-colors(@indColor1, @indColor2, @indColor1);
+	.logo-img('IND');
+}
+
+.JAX.logo {
+	.logo-colors(@jaxColor1, @jaxColor4, @jaxColor3);
+	.logo-img('JAX');
+}
+
+.KC.logo {
+	.logo-colors(@kcColor1, @kcColor2, @kcColor1);
+	.logo-img('KC');
+}
+
+.MIA.logo {
+	.logo-colors(@miaColor1, @miaColor3, @miaColor4);;
+	.logo-img('MIA');
+}
+
+.MIN.logo {
+	.logo-colors(@minColor1, @minColor1, @minColor2);
+	.logo-img('MIN');
+}
+
+.NE.logo {
+	.logo-colors(@neColor1, @neColor3, @neColor2);
+	.logo-img('NE');
+}
+
+.NO.logo {
+	.logo-colors(@noColor1, @noColor1, @noColor2);
+	.logo-img('NO');
+}
+
+.NYG.logo {
+	.logo-colors(@nygColor1, @nygColor2, @nygColor3);
+	.logo-img('NYG');
+}
+
+.NYJ.logo {
+	.logo-colors(@nyjColor1, @nyjColor1, @nyjColor2);
+	.logo-img('NYJ');
+}
+
+.OAK.logo {
+	.logo-colors(@oakColor1, @oakColor3, @oakColor2);
+	.logo-img('OAK');
+}
+
+.PHI.logo {
+	.logo-colors(@phiColor1, @phiColor1, @phiColor4);
+	.logo-img('PHI');
+}
+
+.PIT.logo {
+	.logo-colors(@pitColor1, @pitColor1, @pitColor2);
+	.logo-img('PIT');
+}
+
+.SD.logo {
+	.logo-colors(@sdColor1, @sdColor4, @sdColor3);
+	.logo-img('SD');
+}
+
+.SEA.logo {
+	.logo-colors(@seaColor1, @seaColor4, @seaColor2);
+	.logo-img('SEA');
+}
+
+.SF.logo {
+	.logo-colors(@sfColor1, @sfColor1, @sfColor2);
+	.logo-img('SF');
+}
+
+.STL.logo {
+	.logo-colors(@stlColor1, @stlColor3, @stlColor2);
+	.logo-img('STL');
+}
+
+.TB.logo {
+	.logo-colors(@tbColor1, @tbColor4, @tbColor2);
+	.logo-img('TB');
+}
+
+.TEN.logo {
+	.logo-colors(@tenColor1, @tenColor3, @tenColor2);
+	.logo-img('TEN');
+}
+
+.WAS.logo {
+	.logo-colors(@wasColor1, @wasColor1, @wasColor2);
+	.logo-img('WAS');
+}
