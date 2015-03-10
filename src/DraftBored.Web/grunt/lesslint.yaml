@@ -1,0 +1,8 @@
+﻿src:
+    - "Css/**/*.less"
+    - "App/**/*.less"
+
+options:
+    csslint:
+        "adjoining-classes": false
+        "fallback-colors": false

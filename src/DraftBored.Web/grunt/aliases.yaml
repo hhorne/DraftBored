@@ -1,0 +1,16 @@
+﻿empty: []
+
+lint:
+- "jshint"
+- "lesslint"
+
+default:
+- "lint"
+- "clean:build"
+- "concat"
+- "ngAnnotate"
+- "bower:install"
+- "copy"
+- "less"
+- "jsonmin"
+- "cleanempty"

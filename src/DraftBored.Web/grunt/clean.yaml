@@ -1,0 +1,16 @@
+﻿none: []
+
+all:
+    src:
+    - "Build/**/*"
+    - "wwwroot/"
+
+build:
+    src:
+    - "Build/**/*"
+
+wwwroot:
+    src:
+    - "wwwroot/App/**/*"
+    - "wwwroot/Css/**/*"
+    - "wwwroot/Data/**/*"   

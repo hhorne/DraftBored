@@ -1,8 +1,9 @@
-﻿<div>
-	<h2 class="navbar">Select a Team to Draft as...</h2>
-	<div ng-repeat="t in teams" class="{{t.short_name}} logo">
+﻿<div id="teamSelection">
+	<h2>Select a Team to Draft as...</h2>
+	<div ng-repeat="t in vm.teams" class="{{t.short_name}} logo">
 		<div class="overlay">
 			{{t.name}}
 		</div>
 	</div>
 </div>
+`

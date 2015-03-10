@@ -1,4 +1,4 @@
-﻿@import 'TeamColors.less';
+﻿@import '../../Css/TeamColors.less';
 
 @logoHeight: 96px;
 @logoWidth: 320px;
@@ -15,14 +15,16 @@
 		line-height: @logoHeight;
 		text-align: center;		
 		opacity: 0;		
-		transition: opacity .60s ease-in;
-		-moz-transition: opacity .60s ease-in;
-		-webkit-transition: opacity .60s ease-in;
+		transition: opacity .60s ease-in-out;
+		-o-transition: opacity .60s ease-in-out;
+		-moz-transition: opacity .60s ease-in-out;
+		-webkit-transition: opacity .60s ease-in-out;
 	}
 
 	&.selected .overlay, &:hover .overlay {
 		opacity: 1;
 	    transition: opacity 0.40s ease-in-out;
+		-o-transition: opacity .60s ease-in-out;
 		-moz-transition: opacity 0.40s ease-in-out;
 		-webkit-transition: opacity 0.40s ease-in-out;
 	}

@@ -1,0 +1,6 @@
+﻿all:
+    options:
+        paths: 
+            - "css/"
+    files:
+        "wwwroot/css/styles.css": ["css/**/*.less", "App/**/*.less"]

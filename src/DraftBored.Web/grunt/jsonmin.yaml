@@ -1,0 +1,6 @@
+﻿options:
+    stripWhitespace: true
+    stripComments: true
+
+files:
+    "wwwroot/Data/Draft.min.json": "wwwroot/Data/Draft.json"

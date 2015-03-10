@@ -1,0 +1,13 @@
+﻿javascript:
+    src: 
+    - "App/**/*.js"
+    dest: "Build/App/App.js"
+
+json:
+    options:
+        banner: "{\n"
+        footer: "\n}"
+        separator: ",\n"
+    src: 
+    - "Data/**/*.json"
+    dest: "wwwroot/Data/Draft.json"

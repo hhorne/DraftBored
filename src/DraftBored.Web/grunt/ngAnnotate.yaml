@@ -1,0 +1,6 @@
+﻿options:
+    singleQuotes: true
+
+all:
+    files:
+        "Build/App/App.js": ["Build/App/App.js"]

@@ -1,0 +1,6 @@
+﻿none: []
+
+all:
+    src: 
+    - "Build/**/*"
+    - "wwwroot/**/*"

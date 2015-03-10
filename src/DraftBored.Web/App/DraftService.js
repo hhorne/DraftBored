@@ -5,11 +5,8 @@
 	function DraftService($http) {
 		var dataUrl = "Data/Draft.min.json";
 
-		this.GetDraft = function (onSuccess, onError) {
-			return $http
-					.get(dataUrl)
-					.success(onSuccess)
-					.error(onError);
+		this.GetDraft = function () {
+			return $http.get(dataUrl);
 		};
 	}
 

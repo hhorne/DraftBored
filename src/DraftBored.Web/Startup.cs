@@ -38,7 +38,10 @@ namespace DraftBored.Web
 				// send the request to the following path or controller action.
 				app.UseErrorHandler("/Home/Error");
 			}
-			
+
+			// Remove this after things are worked out
+			app.UseErrorPage(ErrorPageOptions.ShowAll);
+
 			// Add static files to the request pipeline.
 			app.UseStaticFiles();
 						

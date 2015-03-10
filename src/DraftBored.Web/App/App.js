@@ -1,5 +1,5 @@
 ﻿(function () {
-	angular.module('DraftBored.Controllers', ['ui.bootstrap']);
+	angular.module('DraftBored.Controllers', []);
 	angular.module('DraftBored',
 		[
 			'ngRoute',
@@ -10,8 +10,8 @@
 		var i = 0;
 		$routeProvider.
 			when('/', {
-				templateUrl: 'App/Draft/Index.html',
-				controller: 'Draft',
+				templateUrl: 'App/TeamSelection/Index.html',
+				controller: 'TeamSelection',
 				controllerAs: 'vm'
 			});
 	}

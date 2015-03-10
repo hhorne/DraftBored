@@ -1,0 +1,31 @@
+﻿none: []
+
+javascript:
+    files:
+        -   src:
+            - "Build/App/App.js"
+            dest: "wwwroot/App/"
+            filter: "isFile"
+            expand: true
+            flatten: true
+
+images:
+    files:
+        -   src: ["App/**/*.png"]
+            dest: "wwwroot/"
+            filter: "isFile"
+            expand: true
+
+html:
+    files:
+        -   src: ["App/**/*.html"]
+            dest: "wwwroot/"
+            filter: "isFile"
+            expand: true
+
+webConfig:
+    files:
+        -   src: ["Web.config"]
+            dest: "wwwroot/"
+            filter: "isFile"
+            expand: true
