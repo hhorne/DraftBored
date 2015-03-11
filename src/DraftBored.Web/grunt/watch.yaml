@@ -1,0 +1,17 @@
+﻿none: []
+
+less:
+    files: ["App/**/*.less", "Css/**/*.less"]
+    tasks: ["lesslist", "less"]
+
+scripts:
+    files: "App/**/*.js"
+    tasks: ["jshint", "clean:build", "concat:javascript", "ngAnnotate", "copy:javascript"]
+    options:
+        interrupt: true
+
+html:
+    files: "App/**/*.html"
+    tasks: ["copy:html"]
+    options:
+        interrupt: true

@@ -8,6 +8,12 @@ javascript:
             filter: "isFile"
             expand: true
             flatten: true
+        -   src:
+            - "Build/App/vendor.js"
+            dest: "wwwroot/App/"
+            filter: "isFile"
+            expand: true
+            flatten: true
 
 images:
     files:
@@ -21,6 +27,14 @@ html:
         -   src: ["App/**/*.html"]
             dest: "wwwroot/"
             filter: "isFile"
+            expand: true
+
+css:
+    files:
+        -   src: ["Build/**/*.css"]
+            dest: "wwwroot/Css"
+            filter: "isFile"
+            flatten: true
             expand: true
 
 webConfig:

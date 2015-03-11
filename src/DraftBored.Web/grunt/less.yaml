@@ -3,4 +3,4 @@
         paths: 
             - "css/"
     files:
-        "wwwroot/css/styles.css": ["css/**/*.less", "App/**/*.less"]
+        "Build/Css/styles.css": ["Css/**/*.less", "App/**/*.less"]

@@ -7,9 +7,9 @@ lint:
 default:
 - "lint"
 - "clean:build"
+- "bower:install"
 - "concat"
 - "ngAnnotate"
-- "bower:install"
 - "copy"
 - "less"
 - "jsonmin"

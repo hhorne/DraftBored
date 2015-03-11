@@ -1,7 +1,15 @@
-﻿javascript:
-    src: 
-    - "App/**/*.js"
-    dest: "Build/App/App.js"
+﻿none: []
+
+javascript:
+    files:
+        "Build/App/App.js": ["App/**/*.js"]
+        "Build/App/vendor.js": [
+            "wwwroot/lib/jquery-1.11.1/jquery.js",
+            "wwwroot/lib/bootstrap/js/bootstrap.js",
+            "wwwroot/lib/angular/angular.js",
+            "wwwroot/lib/angular-route/angular-route.js",
+            "wwwroot/lib/angular-ui/build/angular-ui.js",
+            "wwwroot/lib/angular-bootstrap/ui-bootstrap-tpls.js"]
 
 json:
     options:
@@ -11,3 +19,7 @@ json:
     src: 
     - "Data/**/*.json"
     dest: "wwwroot/Data/Draft.json"
+
+css:
+    files:
+        "Build/Css/vendor.css": ["wwwroot/lib/bootstrap/css/bootstrap.css", "wwwroot/lib/bootstrap/css/bootstrap-theme.css"]
