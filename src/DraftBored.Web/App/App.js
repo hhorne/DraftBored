@@ -1,8 +1,9 @@
 ﻿(function () {
-	angular.module('DraftBored.Controllers', []);
-	angular.module('DraftBored',
+	angular.module("DraftBored.Controllers", []);
+	angular.module("DraftBored",
 		[
-			'ngRoute',
-			'DraftBored.Controllers'
+			"ngRoute",
+			"ngTouch",
+			"DraftBored.Controllers"
 		]);
 })();
