@@ -2,12 +2,13 @@
 	/**
 	* @ngInject
 	*/
-	function TeamSelection(DraftService) {
+	function TeamSelection($location, DataService, DraftSettings) {
 		var vm = this;
-		vm.SelectedTeam = {};
+		vm.draft = {};
+		vm.selectedTeam = {};
 
-		DraftService
-			.GetDraftData()
+		DataService
+			.GetDraft(2015)
 			.success(function (data, status, headers, config) {
 				vm.draft = data;
 				vm.teams = vm.draft.teams;
@@ -17,12 +18,21 @@
 			});
 
 		vm.SelectTeam = function (team) {
-			vm.SelectedTeam = team;
+			vm.selectedTeam = team;
 			console.log("Selected: " + team.name);
 		};
 
 		vm.IsTeamSelected = function (team) {
-			return team == vm.SelectedTeam;
+			return team == vm.selectedTeam;
+		};
+
+		vm.Submit = function () {
+			if (vm.selectedTeam === "undefined" || vm.selectedTeam === null)
+				return;
+
+			DraftSettings.load(vm.draft);
+
+			$location.path("/draft/" + vm.selectedTeam.short_name.toLowerCase());
 		};
 	}
 

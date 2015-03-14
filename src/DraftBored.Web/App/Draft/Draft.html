@@ -1,0 +1,41 @@
+﻿<div class="dashboard">
+	<div class="team">
+		<h3>User Team</h3>
+		<div class="{{vm.team.short_name}} logo selecting">
+		</div>
+	</div>
+	<div class="rounds">
+		<h3>Rounds</h3>
+		<ul>
+			<li ng-class="{currentRound: r === vm.round }" ng-repeat="r in vm.rounds">{{r}}</li>
+		</ul>
+	</div>
+
+	<div class="draftOrder">
+		<h3>Round {{vm.round}} Upcoming Picks</h3>
+		<div class="upcomingPicks scrollbar style-1">
+			<div class="{{p.team.short_name}} logo" ng-repeat="p in vm.picks">
+				<div class="pickNumber">
+					{{p.pick_num}}
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="draftPool">
+		<h3>Prospects</h3>
+		<div class="scrollbar style-1" style="height: inherit;">
+			<div class="prospectCard" ng-repeat="p in vm.prospects">
+				<div class="positionPlate">
+					{{p.position}}
+				</div>
+				<img src="http://placehold.it/64x64">
+				<div class="namePlate">
+					<a href="{{p.stats_url}}" target="_blank">{{p.name}}</a>
+					<div class="school">
+						{{p.school}}
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

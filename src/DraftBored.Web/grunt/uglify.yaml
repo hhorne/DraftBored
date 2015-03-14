@@ -1,0 +1,8 @@
+﻿default:
+    files: 
+        "": []
+
+javascript:
+    files:
+        "Build/App/App.min.js": ["Build/App/App.js"]
+        "Build/App/Vendor.min.js": ["Build/App/Vendor.min.js"]

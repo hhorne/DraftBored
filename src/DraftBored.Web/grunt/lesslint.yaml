@@ -6,3 +6,6 @@ options:
     csslint:
         "adjoining-classes": false
         "fallback-colors": false
+        "compatible-vendor-prefixes": false
+        "vendor-prefix": false
+        "qualified-headings": false

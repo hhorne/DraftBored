@@ -2,16 +2,22 @@
 
 less:
     files: ["App/**/*.less", "Css/**/*.less"]
-    tasks: ["lesslist", "less"]
+    tasks: ["buildless"]
 
 scripts:
     files: "App/**/*.js"
-    tasks: ["jshint", "clean:build", "concat:javascript", "ngAnnotate", "copy:javascript"]
+    tasks: ["buildjs"]
     options:
         interrupt: true
 
 html:
     files: "App/**/*.html"
     tasks: ["copy:html"]
+    options:
+        interrupt: true
+
+json:
+    files: "Data/**/*.json"
+    tasks: ["concat:json", "jsonmin"]
     options:
         interrupt: true

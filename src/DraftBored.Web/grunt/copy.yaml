@@ -43,3 +43,10 @@ webConfig:
             dest: "wwwroot/"
             filter: "isFile"
             expand: true
+fonts:
+    files:
+        -   src: ["wwwroot/lib/bootstrap/fonts/**/*"]
+            dest: "wwwroot/fonts/"
+            filter: "isFile"
+            flatten: true
+            expand: true

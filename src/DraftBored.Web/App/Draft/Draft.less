@@ -1,0 +1,151 @@
+﻿@import '../../Css/TeamLogos.less';
+
+.dashboard {
+	h1, h2, h3 {
+		margin: 0;
+		padding: 0;
+	}  
+
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+  
+	-webkit-flex-flow: row wrap;
+	justify-content: flex-start;
+}
+
+
+
+.prospectCard {
+	background-color: whitesmoke;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	height: 64px;
+	-webkit-flex-flow: row wrap;
+	
+	justify-content: flex-start;
+
+	width: 450px;
+}
+
+.prospectCard:not(:last-child) {
+	border-bottom: 1px solid #ddd;
+}
+
+.prospectCard .positionPlate {
+	background-color: rgba(0, 0, 0, 0.8);
+	color: white;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 64px;
+	text-align: center;
+	width: 64px;
+}
+
+.prospectCard:hover .positionPlate {
+	background-color: rgba(0, 0, 0, .9);
+}
+
+.prospectCard .namePlate {
+	font-size: 24px;
+	margin-left: 12px;
+	margin-top: 4px;
+	width: 256px;
+}
+
+.prospectCard:hover {
+	background-color: #fff;
+}
+
+.namePlate .school {
+	font-size: 16px;
+}
+
+.upcomingPicks {
+	color: white;
+	font-size: 42px;
+	list-style: none;
+	line-height: @logoHeight;
+	margin: 0;
+	padding: 0;
+	text-shadow: 1px 1px 4px #000000, 
+				 2px 1px 4px #000000, 
+				 1px 2px 4px #000000,
+				 0 0 3px #000000,
+				 -1px 0 4px #000000,
+				 -2px 0 4px #000000;
+	width: 320px;
+}
+
+.upcomingPicks .pickNumber {
+	text-align: center;
+	width: 64px;
+	background-color: rgba(0,0,0, 0.8);	
+}
+
+.draftPool {
+	height: 720px;
+}
+
+.upcomingPicks, .draftPool {
+	height: 720px;
+}
+
+.scrollbar {
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+.style-1::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+.style-1::-webkit-scrollbar {
+	width: 12px;
+	background-color: #F5F5F5;
+}
+
+.style-1::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #555;
+}
+
+.rounds {
+	width: 700px;
+}
+
+.rounds ul {
+	height: 96px;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.rounds li {
+	display: inline-block;
+	font-size: 24px;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	cursor: not-allowed;
+}
+
+.rounds .currentRound {
+	border-bottom: 2px solid black;
+}
+
+.rounds .currentRound, .rounds .finished {
+	cursor: pointer;
+}
+
+.dashboard .team, .rounds, .rounds li:not(:last-child), .draftOrder {
+	margin-right: 24px;
+}

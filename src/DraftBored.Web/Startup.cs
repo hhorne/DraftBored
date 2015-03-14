@@ -21,6 +21,8 @@ namespace DraftBored.Web
 
         public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerfactory)
 		{
+			app.UseBrowserLink();
+
 			// Configure the HTTP request pipeline.
 			// Add the console logger.
 			loggerfactory.AddConsole();
@@ -28,7 +30,6 @@ namespace DraftBored.Web
 			// Add the following to the request pipeline only in development environment.
 			if (string.Equals(env.EnvironmentName, "Development", StringComparison.OrdinalIgnoreCase))
 			{
-				app.UseBrowserLink();
 				app.UseErrorPage(ErrorPageOptions.ShowAll);
 				//app.UseDatabaseErrorPage(DatabaseErrorPageOptions.ShowAll);
 			}

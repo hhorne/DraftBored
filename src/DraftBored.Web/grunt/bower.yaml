@@ -1,6 +1,4 @@
-﻿none: []
-
-install:
+﻿install:
     options:
         targetDir: "wwwroot/lib"
         layout: "byComponent"

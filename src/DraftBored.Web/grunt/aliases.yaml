@@ -4,13 +4,25 @@ lint:
 - "jshint"
 - "lesslint"
 
+buildless:
+- "lesslint"
+- "less"
+- "copy:css"
+
+buildjs:
+- "jshint"
+- "clean:build"
+- "concat:javascript"
+- "ngAnnotate"
+- "copy:javascript"
+
 default:
 - "lint"
 - "clean:build"
 - "bower:install"
 - "concat"
 - "ngAnnotate"
-- "copy"
 - "less"
+- "copy"
 - "jsonmin"
 - "cleanempty"

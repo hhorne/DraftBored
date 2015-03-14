@@ -10,7 +10,8 @@
     "angular-bootstrap": "^0.12.1",
     "bootstrap": "^3.3.2",
 	"modernizr": "^2.8.3",
-	"jquery-1.11.1": "^2.1.3"
+	"jquery-1.11.1": "^2.1.3",
+	"string-formatter": "^0.0.2"
   },
   "exportsOverride": {
     "bootstrap": {

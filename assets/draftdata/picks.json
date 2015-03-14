@@ -1,1570 +1,5951 @@
-[
+"picks": [
   {
-    "pick_id": 0,
+    "pick_order_id": 1,
     "round_num": 1,
     "pick_num": 1,
     "team_id": 2894,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2894,
+      "name": "Tampa Bay Buccaneers",
+      "short_name": "TB",
+      "conference": "NFC",
+      "division": "South",
+      "needs": [
+        "QB",
+        "DE",
+        "S",
+        "OT",
+        "OLB",
+        "DT",
+        "WR",
+        "G",
+        "CB",
+        "C",
+        "ILB"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 2,
     "round_num": 1,
     "pick_num": 2,
     "team_id": 2878,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2878,
+      "name": "Tennessee Titans",
+      "short_name": "TEN",
+      "conference": "AFC",
+      "division": "South",
+      "needs": [
+        "QB",
+        "OLB",
+        "DE",
+        "ILB",
+        "CB",
+        "S",
+        "DT",
+        "WR",
+        "RB",
+        "DE",
+        "S"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 3,
     "round_num": 1,
     "pick_num": 3,
     "team_id": 2877,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2877,
+      "name": "Jacksonville Jaguars",
+      "short_name": "JAX",
+      "conference": "AFC",
+      "division": "South",
+      "needs": [
+        "OLB",
+        "DE",
+        "CB",
+        "S",
+        "OT",
+        "RB",
+        "WR",
+        "RB",
+        "DT",
+        "G",
+        "C",
+        "TE"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 4,
     "round_num": 1,
     "pick_num": 4,
     "team_id": 2881,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2881,
+      "name": "Oakland Raiders",
+      "short_name": "OAK",
+      "conference": "AFC",
+      "division": "West",
+      "needs": [
+        "CB",
+        "DE",
+        "DT",
+        "WR",
+        "OT",
+        "RB",
+        "S",
+        "DT",
+        "G",
+        "CB",
+        "ILB",
+        "WR",
+        "OT",
+        "OLB",
+        "DE"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 5,
     "round_num": 1,
     "pick_num": 5,
     "team_id": 2886,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2886,
+      "name": "Washington Redtails",
+      "short_name": "WAS",
+      "conference": "NFC",
+      "division": "East",
+      "needs": [
+        "DT",
+        "S",
+        "G",
+        "OT",
+        "CB",
+        "ILB",
+        "C",
+        "S",
+        "RB",
+        "WR",
+        "QB",
+        "ILB"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 6,
     "round_num": 1,
     "pick_num": 6,
     "team_id": 2869,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2869,
+      "name": "New York Jets",
+      "short_name": "NYJ",
+      "conference": "AFC",
+      "division": "East",
+      "needs": [
+        "QB",
+        "WR",
+        "OLB",
+        "RB",
+        "G",
+        "DT",
+        "ILB",
+        "WR",
+        "OT",
+        "CB"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 7,
     "round_num": 1,
     "pick_num": 7,
     "team_id": 2887,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2887,
+      "name": "Chicago Bears",
+      "short_name": "CHI",
+      "conference": "NFC",
+      "division": "North",
+      "needs": [
+        "DE",
+        "S",
+        "OLB",
+        "ILB",
+        "DT",
+        "OT",
+        "CB",
+        "G",
+        "QB",
+        "ILB"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 8,
     "round_num": 1,
     "pick_num": 8,
     "team_id": 2891,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2891,
+      "name": "Atlanta Falcons",
+      "short_name": "ATL",
+      "conference": "NFC",
+      "division": "South",
+      "needs": [
+        "DE",
+        "OLB",
+        "TE",
+        "S",
+        "RB",
+        "ILB",
+        "CB",
+        "DE",
+        "OT",
+        "G",
+        "S",
+        "WR",
+        "QB"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 9,
     "round_num": 1,
     "pick_num": 9,
     "team_id": 2884,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2884,
+      "name": "New York Giants",
+      "short_name": "NYG",
+      "conference": "NFC",
+      "division": "East",
+      "needs": [
+        "DE",
+        "ILB",
+        "WR",
+        "OLB",
+        "S",
+        "QB",
+        "OT",
+        "TE",
+        "CB"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 10,
     "round_num": 1,
     "pick_num": 10,
     "team_id": 2898,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2898,
+      "name": "St. Louis Rams",
+      "short_name": "STL",
+      "conference": "NFC",
+      "division": "West",
+      "needs": [
+        "QB",
+        "WR",
+        "OT",
+        "CB",
+        "ILB",
+        "S",
+        "G",
+        "RB",
+        "TE",
+        "OLB",
+        "ILB"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 11,
     "round_num": 1,
     "pick_num": 11,
     "team_id": 2890,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2890,
+      "name": "Minnesota Vikings",
+      "short_name": "MIN",
+      "conference": "NFC",
+      "division": "North",
+      "needs": [
+        "CB",
+        "WR",
+        "RB",
+        "S",
+        "DT",
+        "C",
+        "ILB",
+        "S",
+        "OT",
+        "G"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 12,
     "round_num": 1,
     "pick_num": 12,
     "team_id": 2872,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2872,
+      "name": "Cleveland Browns",
+      "short_name": "CLE",
+      "conference": "AFC",
+      "division": "North",
+      "needs": [
+        "S",
+        "DE",
+        "ILB",
+        "DT",
+        "WR",
+        "RB",
+        "C",
+        "OT",
+        "WR",
+        "OLB"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 13,
     "round_num": 1,
     "pick_num": 13,
     "team_id": 2893,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2893,
+      "name": "New Orleans Saints",
+      "short_name": "NO",
+      "conference": "NFC",
+      "division": "South",
+      "needs": [
+        "OLB",
+        "ILB",
+        "CB",
+        "QB",
+        "OT",
+        "ILB",
+        "C",
+        "TE",
+        "WR",
+        "DE"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 14,
     "round_num": 1,
     "pick_num": 14,
     "team_id": 2868,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2868,
+      "name": "Miami Dolphins",
+      "short_name": "MIA",
+      "conference": "AFC",
+      "division": "East",
+      "needs": [
+        "OLB",
+        "RB",
+        "S",
+        "ILB",
+        "CB",
+        "TE",
+        "DT",
+        "G",
+        "QB",
+        "C"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 15,
     "round_num": 1,
     "pick_num": 15,
     "team_id": 2897,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2897,
+      "name": "San Francisco 49ers",
+      "short_name": "SF",
+      "conference": "NFC",
+      "division": "West",
+      "needs": [
+        "CB",
+        "OLB",
+        "DT",
+        "ILB",
+        "G",
+        "RB",
+        "DE",
+        "WR",
+        "TE",
+        "QB"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 16,
     "round_num": 1,
     "pick_num": 16,
     "team_id": 2875,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2875,
+      "name": "Houston Texans",
+      "short_name": "HOU",
+      "conference": "AFC",
+      "division": "South",
+      "needs": [
+        "QB",
+        "ILB",
+        "S",
+        "OT",
+        "WR",
+        "G",
+        "RB",
+        "OLB",
+        "DT",
+        "CB",
+        "S"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 17,
     "round_num": 1,
     "pick_num": 17,
     "team_id": 2882,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2882,
+      "name": "San Diego Chargers",
+      "short_name": "SD",
+      "conference": "AFC",
+      "division": "West",
+      "needs": [
+        "DT",
+        "OT",
+        "OLB",
+        "RB",
+        "ILB",
+        "G",
+        "CB",
+        "WR",
+        "S",
+        "QB"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 18,
     "round_num": 1,
     "pick_num": 18,
     "team_id": 2880,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2880,
+      "name": "Kansas City Chiefs",
+      "short_name": "KC",
+      "conference": "AFC",
+      "division": "West",
+      "needs": [
+        "WR",
+        "ILB",
+        "OT",
+        "G",
+        "S",
+        "CB",
+        "DE",
+        "C",
+        "WR",
+        "DT"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 19,
     "round_num": 1,
     "pick_num": 19,
     "team_id": 2872,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2872,
+      "name": "Cleveland Browns",
+      "short_name": "CLE",
+      "conference": "AFC",
+      "division": "North",
+      "needs": [
+        "S",
+        "DE",
+        "ILB",
+        "DT",
+        "WR",
+        "RB",
+        "C",
+        "OT",
+        "WR",
+        "OLB"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 20,
     "round_num": 1,
     "pick_num": 20,
     "team_id": 2885,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2885,
+      "name": "Philadelphia Eagles",
+      "short_name": "PHI",
+      "conference": "NFC",
+      "division": "East",
+      "needs": [
+        "ILB",
+        "DE",
+        "CB",
+        "G",
+        "DT",
+        "S",
+        "QB",
+        "WR",
+        "OT",
+        "TE"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 21,
     "round_num": 1,
     "pick_num": 21,
     "team_id": 2873,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2873,
+      "name": "Cincinnati Bengals",
+      "short_name": "CIN",
+      "conference": "AFC",
+      "division": "North",
+      "needs": [
+        "S",
+        "DE",
+        "C",
+        "OLB",
+        "S",
+        "ILB",
+        "CB",
+        "G",
+        "DT",
+        "OT"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 22,
     "round_num": 1,
     "pick_num": 22,
     "team_id": 2874,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2874,
+      "name": "Pittsburgh Steelers",
+      "short_name": "PIT",
+      "conference": "AFC",
+      "division": "North",
+      "needs": [
+        "DT",
+        "DE",
+        "CB",
+        "G",
+        "OLB",
+        "S",
+        "OLB",
+        "TE",
+        "RB",
+        "QB",
+        "WR"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 23,
     "round_num": 1,
     "pick_num": 23,
     "team_id": 2888,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2888,
+      "name": "Detroit Lions",
+      "short_name": "DET",
+      "conference": "NFC",
+      "division": "North",
+      "needs": [
+        "CB",
+        "OLB",
+        "RB",
+        "ILB",
+        "C",
+        "S",
+        "OT",
+        "WR",
+        "OLB",
+        "CB",
+        "QB",
+        "WR"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 24,
     "round_num": 1,
     "pick_num": 24,
     "team_id": 2895,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2895,
+      "name": "Arizona Cardinals",
+      "short_name": "ARI",
+      "conference": "NFC",
+      "division": "West",
+      "needs": [
+        "QB",
+        "OLB",
+        "ILB",
+        "C",
+        "OLB",
+        "RB",
+        "OT",
+        "CB",
+        "QB",
+        "G",
+        "CB"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 25,
     "round_num": 1,
     "pick_num": 25,
     "team_id": 2892,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2892,
+      "name": "Carolina Panthers",
+      "short_name": "CAR",
+      "conference": "NFC",
+      "division": "South",
+      "needs": [
+        "OT",
+        "S",
+        "OLB",
+        "G",
+        "WR",
+        "OT",
+        "TE",
+        "DE",
+        "CB",
+        "S"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 26,
     "round_num": 1,
     "pick_num": 26,
     "team_id": 2871,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2871,
+      "name": "Baltimore Ravens",
+      "short_name": "BAL",
+      "conference": "AFC",
+      "division": "North",
+      "needs": [
+        "TE",
+        "WR",
+        "G",
+        "CB",
+        "OT",
+        "RB",
+        "DE",
+        "DT",
+        "C",
+        "ILB",
+        "G"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 27,
     "round_num": 1,
     "pick_num": 27,
     "team_id": 2883,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2883,
+      "name": "Dallas Cowboys",
+      "short_name": "DAL",
+      "conference": "NFC",
+      "division": "East",
+      "needs": [
+        "DE",
+        "DT",
+        "CB",
+        "S",
+        "OLB",
+        "ILB",
+        "WR",
+        "QB",
+        "G",
+        "RB",
+        "S"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 28,
     "round_num": 1,
     "pick_num": 28,
     "team_id": 2879,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2879,
+      "name": "Denver Broncos",
+      "short_name": "DEN",
+      "conference": "AFC",
+      "division": "West",
+      "needs": [
+        "C",
+        "DE",
+        "OLB",
+        "OT",
+        "ILB",
+        "QB",
+        "G",
+        "RB",
+        "S",
+        "WR",
+        "DE"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 29,
     "round_num": 1,
     "pick_num": 29,
     "team_id": 2876,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2876,
+      "name": "Indianapolis Colts",
+      "short_name": "IND",
+      "conference": "AFC",
+      "division": "South",
+      "needs": [
+        "ILB",
+        "DE",
+        "G",
+        "RB",
+        "DT",
+        "S",
+        "WR",
+        "OT",
+        "CB"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 30,
     "round_num": 1,
     "pick_num": 30,
     "team_id": 2889,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2889,
+      "name": "Green Bay Packers",
+      "short_name": "GB",
+      "conference": "NFC",
+      "division": "North",
+      "needs": [
+        "OT",
+        "ILB",
+        "DT",
+        "TE",
+        "WR",
+        "C",
+        "OT",
+        "CB",
+        "QB",
+        "RB",
+        "OLB"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 31,
     "round_num": 1,
     "pick_num": 31,
     "team_id": 2896,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2896,
+      "name": "Seattle Seahawks",
+      "short_name": "SEA",
+      "conference": "NFC",
+      "division": "West",
+      "needs": [
+        "CB",
+        "WR",
+        "G",
+        "DE",
+        "OT",
+        "ILB",
+        "DT",
+        "OLB",
+        "S",
+        "QB",
+        "TE"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 32,
     "round_num": 1,
     "pick_num": 32,
     "team_id": 2870,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2870,
+      "name": "New England Patriots",
+      "short_name": "NE",
+      "conference": "AFC",
+      "division": "East",
+      "needs": [
+        "S",
+        "G",
+        "RB",
+        "WR",
+        "DT",
+        "TE",
+        "ILB",
+        "OLB",
+        "C"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 33,
     "round_num": 2,
     "pick_num": 1,
     "team_id": 2878,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2878,
+      "name": "Tennessee Titans",
+      "short_name": "TEN",
+      "conference": "AFC",
+      "division": "South",
+      "needs": [
+        "QB",
+        "OLB",
+        "DE",
+        "ILB",
+        "CB",
+        "S",
+        "DT",
+        "WR",
+        "RB",
+        "DE",
+        "S"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 34,
     "round_num": 2,
     "pick_num": 2,
     "team_id": 2894,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2894,
+      "name": "Tampa Bay Buccaneers",
+      "short_name": "TB",
+      "conference": "NFC",
+      "division": "South",
+      "needs": [
+        "QB",
+        "DE",
+        "S",
+        "OT",
+        "OLB",
+        "DT",
+        "WR",
+        "G",
+        "CB",
+        "C",
+        "ILB"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 35,
     "round_num": 2,
     "pick_num": 3,
     "team_id": 2881,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2881,
+      "name": "Oakland Raiders",
+      "short_name": "OAK",
+      "conference": "AFC",
+      "division": "West",
+      "needs": [
+        "CB",
+        "DE",
+        "DT",
+        "WR",
+        "OT",
+        "RB",
+        "S",
+        "DT",
+        "G",
+        "CB",
+        "ILB",
+        "WR",
+        "OT",
+        "OLB",
+        "DE"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 36,
     "round_num": 2,
     "pick_num": 4,
     "team_id": 2877,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2877,
+      "name": "Jacksonville Jaguars",
+      "short_name": "JAX",
+      "conference": "AFC",
+      "division": "South",
+      "needs": [
+        "OLB",
+        "DE",
+        "CB",
+        "S",
+        "OT",
+        "RB",
+        "WR",
+        "RB",
+        "DT",
+        "G",
+        "C",
+        "TE"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 37,
     "round_num": 2,
     "pick_num": 5,
     "team_id": 2869,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2869,
+      "name": "New York Jets",
+      "short_name": "NYJ",
+      "conference": "AFC",
+      "division": "East",
+      "needs": [
+        "QB",
+        "WR",
+        "OLB",
+        "RB",
+        "G",
+        "DT",
+        "ILB",
+        "WR",
+        "OT",
+        "CB"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 38,
     "round_num": 2,
     "pick_num": 6,
     "team_id": 2886,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2886,
+      "name": "Washington Redtails",
+      "short_name": "WAS",
+      "conference": "NFC",
+      "division": "East",
+      "needs": [
+        "DT",
+        "S",
+        "G",
+        "OT",
+        "CB",
+        "ILB",
+        "C",
+        "S",
+        "RB",
+        "WR",
+        "QB",
+        "ILB"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 39,
     "round_num": 2,
     "pick_num": 7,
     "team_id": 2887,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2887,
+      "name": "Chicago Bears",
+      "short_name": "CHI",
+      "conference": "NFC",
+      "division": "North",
+      "needs": [
+        "DE",
+        "S",
+        "OLB",
+        "ILB",
+        "DT",
+        "OT",
+        "CB",
+        "G",
+        "QB",
+        "ILB"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 40,
     "round_num": 2,
     "pick_num": 8,
     "team_id": 2884,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2884,
+      "name": "New York Giants",
+      "short_name": "NYG",
+      "conference": "NFC",
+      "division": "East",
+      "needs": [
+        "DE",
+        "ILB",
+        "WR",
+        "OLB",
+        "S",
+        "QB",
+        "OT",
+        "TE",
+        "CB"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 41,
     "round_num": 2,
     "pick_num": 9,
     "team_id": 2898,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2898,
+      "name": "St. Louis Rams",
+      "short_name": "STL",
+      "conference": "NFC",
+      "division": "West",
+      "needs": [
+        "QB",
+        "WR",
+        "OT",
+        "CB",
+        "ILB",
+        "S",
+        "G",
+        "RB",
+        "TE",
+        "OLB",
+        "ILB"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 42,
     "round_num": 2,
     "pick_num": 10,
     "team_id": 2891,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2891,
+      "name": "Atlanta Falcons",
+      "short_name": "ATL",
+      "conference": "NFC",
+      "division": "South",
+      "needs": [
+        "DE",
+        "OLB",
+        "TE",
+        "S",
+        "RB",
+        "ILB",
+        "CB",
+        "DE",
+        "OT",
+        "G",
+        "S",
+        "WR",
+        "QB"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 43,
     "round_num": 2,
     "pick_num": 11,
     "team_id": 2872,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2872,
+      "name": "Cleveland Browns",
+      "short_name": "CLE",
+      "conference": "AFC",
+      "division": "North",
+      "needs": [
+        "S",
+        "DE",
+        "ILB",
+        "DT",
+        "WR",
+        "RB",
+        "C",
+        "OT",
+        "WR",
+        "OLB"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 44,
     "round_num": 2,
     "pick_num": 12,
     "team_id": 2893,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2893,
+      "name": "New Orleans Saints",
+      "short_name": "NO",
+      "conference": "NFC",
+      "division": "South",
+      "needs": [
+        "OLB",
+        "ILB",
+        "CB",
+        "QB",
+        "OT",
+        "ILB",
+        "C",
+        "TE",
+        "WR",
+        "DE"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 45,
     "round_num": 2,
     "pick_num": 13,
     "team_id": 2890,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2890,
+      "name": "Minnesota Vikings",
+      "short_name": "MIN",
+      "conference": "NFC",
+      "division": "North",
+      "needs": [
+        "CB",
+        "WR",
+        "RB",
+        "S",
+        "DT",
+        "C",
+        "ILB",
+        "S",
+        "OT",
+        "G"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 46,
     "round_num": 2,
     "pick_num": 14,
     "team_id": 2897,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2897,
+      "name": "San Francisco 49ers",
+      "short_name": "SF",
+      "conference": "NFC",
+      "division": "West",
+      "needs": [
+        "CB",
+        "OLB",
+        "DT",
+        "ILB",
+        "G",
+        "RB",
+        "DE",
+        "WR",
+        "TE",
+        "QB"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 47,
     "round_num": 2,
     "pick_num": 15,
     "team_id": 2868,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2868,
+      "name": "Miami Dolphins",
+      "short_name": "MIA",
+      "conference": "AFC",
+      "division": "East",
+      "needs": [
+        "OLB",
+        "RB",
+        "S",
+        "ILB",
+        "CB",
+        "TE",
+        "DT",
+        "G",
+        "QB",
+        "C"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 48,
     "round_num": 2,
     "pick_num": 16,
     "team_id": 2882,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2882,
+      "name": "San Diego Chargers",
+      "short_name": "SD",
+      "conference": "AFC",
+      "division": "West",
+      "needs": [
+        "DT",
+        "OT",
+        "OLB",
+        "RB",
+        "ILB",
+        "G",
+        "CB",
+        "WR",
+        "S",
+        "QB"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 49,
     "round_num": 2,
     "pick_num": 17,
     "team_id": 2880,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2880,
+      "name": "Kansas City Chiefs",
+      "short_name": "KC",
+      "conference": "AFC",
+      "division": "West",
+      "needs": [
+        "WR",
+        "ILB",
+        "OT",
+        "G",
+        "S",
+        "CB",
+        "DE",
+        "C",
+        "WR",
+        "DT"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 50,
     "round_num": 2,
     "pick_num": 18,
     "team_id": 2867,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2867,
+      "name": "Buffalo Bills",
+      "short_name": "BUF",
+      "conference": "AFC",
+      "division": "East",
+      "needs": [
+        "S",
+        "TE",
+        "QB",
+        "OLB",
+        "G",
+        "RB",
+        "ILB",
+        "OT",
+        "CB"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 51,
     "round_num": 2,
     "pick_num": 19,
     "team_id": 2875,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2875,
+      "name": "Houston Texans",
+      "short_name": "HOU",
+      "conference": "AFC",
+      "division": "South",
+      "needs": [
+        "QB",
+        "ILB",
+        "S",
+        "OT",
+        "WR",
+        "G",
+        "RB",
+        "OLB",
+        "DT",
+        "CB",
+        "S"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 52,
     "round_num": 2,
     "pick_num": 20,
     "team_id": 2885,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2885,
+      "name": "Philadelphia Eagles",
+      "short_name": "PHI",
+      "conference": "NFC",
+      "division": "East",
+      "needs": [
+        "ILB",
+        "DE",
+        "CB",
+        "G",
+        "DT",
+        "S",
+        "QB",
+        "WR",
+        "OT",
+        "TE"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 53,
     "round_num": 2,
     "pick_num": 21,
     "team_id": 2873,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2873,
+      "name": "Cincinnati Bengals",
+      "short_name": "CIN",
+      "conference": "AFC",
+      "division": "North",
+      "needs": [
+        "S",
+        "DE",
+        "C",
+        "OLB",
+        "S",
+        "ILB",
+        "CB",
+        "G",
+        "DT",
+        "OT"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 54,
     "round_num": 2,
     "pick_num": 22,
     "team_id": 2888,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2888,
+      "name": "Detroit Lions",
+      "short_name": "DET",
+      "conference": "NFC",
+      "division": "North",
+      "needs": [
+        "CB",
+        "OLB",
+        "RB",
+        "ILB",
+        "C",
+        "S",
+        "OT",
+        "WR",
+        "OLB",
+        "CB",
+        "QB",
+        "WR"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 55,
     "round_num": 2,
     "pick_num": 23,
     "team_id": 2895,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2895,
+      "name": "Arizona Cardinals",
+      "short_name": "ARI",
+      "conference": "NFC",
+      "division": "West",
+      "needs": [
+        "QB",
+        "OLB",
+        "ILB",
+        "C",
+        "OLB",
+        "RB",
+        "OT",
+        "CB",
+        "QB",
+        "G",
+        "CB"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 56,
     "round_num": 2,
     "pick_num": 24,
     "team_id": 2874,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2874,
+      "name": "Pittsburgh Steelers",
+      "short_name": "PIT",
+      "conference": "AFC",
+      "division": "North",
+      "needs": [
+        "DT",
+        "DE",
+        "CB",
+        "G",
+        "OLB",
+        "S",
+        "OLB",
+        "TE",
+        "RB",
+        "QB",
+        "WR"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 57,
     "round_num": 2,
     "pick_num": 25,
     "team_id": 2892,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2892,
+      "name": "Carolina Panthers",
+      "short_name": "CAR",
+      "conference": "NFC",
+      "division": "South",
+      "needs": [
+        "OT",
+        "S",
+        "OLB",
+        "G",
+        "WR",
+        "OT",
+        "TE",
+        "DE",
+        "CB",
+        "S"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 58,
     "round_num": 2,
     "pick_num": 26,
     "team_id": 2871,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2871,
+      "name": "Baltimore Ravens",
+      "short_name": "BAL",
+      "conference": "AFC",
+      "division": "North",
+      "needs": [
+        "TE",
+        "WR",
+        "G",
+        "CB",
+        "OT",
+        "RB",
+        "DE",
+        "DT",
+        "C",
+        "ILB",
+        "G"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 59,
     "round_num": 2,
     "pick_num": 27,
     "team_id": 2879,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2879,
+      "name": "Denver Broncos",
+      "short_name": "DEN",
+      "conference": "AFC",
+      "division": "West",
+      "needs": [
+        "C",
+        "DE",
+        "OLB",
+        "OT",
+        "ILB",
+        "QB",
+        "G",
+        "RB",
+        "S",
+        "WR",
+        "DE"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 60,
     "round_num": 2,
     "pick_num": 28,
     "team_id": 2883,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2883,
+      "name": "Dallas Cowboys",
+      "short_name": "DAL",
+      "conference": "NFC",
+      "division": "East",
+      "needs": [
+        "DE",
+        "DT",
+        "CB",
+        "S",
+        "OLB",
+        "ILB",
+        "WR",
+        "QB",
+        "G",
+        "RB",
+        "S"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 61,
     "round_num": 2,
     "pick_num": 29,
     "team_id": 2876,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2876,
+      "name": "Indianapolis Colts",
+      "short_name": "IND",
+      "conference": "AFC",
+      "division": "South",
+      "needs": [
+        "ILB",
+        "DE",
+        "G",
+        "RB",
+        "DT",
+        "S",
+        "WR",
+        "OT",
+        "CB"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 62,
     "round_num": 2,
     "pick_num": 30,
     "team_id": 2889,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2889,
+      "name": "Green Bay Packers",
+      "short_name": "GB",
+      "conference": "NFC",
+      "division": "North",
+      "needs": [
+        "OT",
+        "ILB",
+        "DT",
+        "TE",
+        "WR",
+        "C",
+        "OT",
+        "CB",
+        "QB",
+        "RB",
+        "OLB"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 63,
     "round_num": 2,
     "pick_num": 31,
     "team_id": 2896,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2896,
+      "name": "Seattle Seahawks",
+      "short_name": "SEA",
+      "conference": "NFC",
+      "division": "West",
+      "needs": [
+        "CB",
+        "WR",
+        "G",
+        "DE",
+        "OT",
+        "ILB",
+        "DT",
+        "OLB",
+        "S",
+        "QB",
+        "TE"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 64,
     "round_num": 2,
     "pick_num": 32,
     "team_id": 2870,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2870,
+      "name": "New England Patriots",
+      "short_name": "NE",
+      "conference": "AFC",
+      "division": "East",
+      "needs": [
+        "S",
+        "G",
+        "RB",
+        "WR",
+        "DT",
+        "TE",
+        "ILB",
+        "OLB",
+        "C"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 65,
     "round_num": 3,
     "pick_num": 1,
     "team_id": 2894,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2894,
+      "name": "Tampa Bay Buccaneers",
+      "short_name": "TB",
+      "conference": "NFC",
+      "division": "South",
+      "needs": [
+        "QB",
+        "DE",
+        "S",
+        "OT",
+        "OLB",
+        "DT",
+        "WR",
+        "G",
+        "CB",
+        "C",
+        "ILB"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 66,
     "round_num": 3,
     "pick_num": 2,
     "team_id": 2878,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2878,
+      "name": "Tennessee Titans",
+      "short_name": "TEN",
+      "conference": "AFC",
+      "division": "South",
+      "needs": [
+        "QB",
+        "OLB",
+        "DE",
+        "ILB",
+        "CB",
+        "S",
+        "DT",
+        "WR",
+        "RB",
+        "DE",
+        "S"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 67,
     "round_num": 3,
     "pick_num": 3,
     "team_id": 2877,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2877,
+      "name": "Jacksonville Jaguars",
+      "short_name": "JAX",
+      "conference": "AFC",
+      "division": "South",
+      "needs": [
+        "OLB",
+        "DE",
+        "CB",
+        "S",
+        "OT",
+        "RB",
+        "WR",
+        "RB",
+        "DT",
+        "G",
+        "C",
+        "TE"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 68,
     "round_num": 3,
     "pick_num": 4,
     "team_id": 2881,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2881,
+      "name": "Oakland Raiders",
+      "short_name": "OAK",
+      "conference": "AFC",
+      "division": "West",
+      "needs": [
+        "CB",
+        "DE",
+        "DT",
+        "WR",
+        "OT",
+        "RB",
+        "S",
+        "DT",
+        "G",
+        "CB",
+        "ILB",
+        "WR",
+        "OT",
+        "OLB",
+        "DE"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 69,
     "round_num": 3,
     "pick_num": 5,
     "team_id": 2886,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2886,
+      "name": "Washington Redtails",
+      "short_name": "WAS",
+      "conference": "NFC",
+      "division": "East",
+      "needs": [
+        "DT",
+        "S",
+        "G",
+        "OT",
+        "CB",
+        "ILB",
+        "C",
+        "S",
+        "RB",
+        "WR",
+        "QB",
+        "ILB"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 70,
     "round_num": 3,
     "pick_num": 6,
     "team_id": 2869,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2869,
+      "name": "New York Jets",
+      "short_name": "NYJ",
+      "conference": "AFC",
+      "division": "East",
+      "needs": [
+        "QB",
+        "WR",
+        "OLB",
+        "RB",
+        "G",
+        "DT",
+        "ILB",
+        "WR",
+        "OT",
+        "CB"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 71,
     "round_num": 3,
     "pick_num": 7,
     "team_id": 2887,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2887,
+      "name": "Chicago Bears",
+      "short_name": "CHI",
+      "conference": "NFC",
+      "division": "North",
+      "needs": [
+        "DE",
+        "S",
+        "OLB",
+        "ILB",
+        "DT",
+        "OT",
+        "CB",
+        "G",
+        "QB",
+        "ILB"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 72,
     "round_num": 3,
     "pick_num": 8,
     "team_id": 2898,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2898,
+      "name": "St. Louis Rams",
+      "short_name": "STL",
+      "conference": "NFC",
+      "division": "West",
+      "needs": [
+        "QB",
+        "WR",
+        "OT",
+        "CB",
+        "ILB",
+        "S",
+        "G",
+        "RB",
+        "TE",
+        "OLB",
+        "ILB"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 73,
     "round_num": 3,
     "pick_num": 9,
     "team_id": 2891,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2891,
+      "name": "Atlanta Falcons",
+      "short_name": "ATL",
+      "conference": "NFC",
+      "division": "South",
+      "needs": [
+        "DE",
+        "OLB",
+        "TE",
+        "S",
+        "RB",
+        "ILB",
+        "CB",
+        "DE",
+        "OT",
+        "G",
+        "S",
+        "WR",
+        "QB"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 74,
     "round_num": 3,
     "pick_num": 10,
     "team_id": 2884,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2884,
+      "name": "New York Giants",
+      "short_name": "NYG",
+      "conference": "NFC",
+      "division": "East",
+      "needs": [
+        "DE",
+        "ILB",
+        "WR",
+        "OLB",
+        "S",
+        "QB",
+        "OT",
+        "TE",
+        "CB"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 75,
     "round_num": 3,
     "pick_num": 11,
     "team_id": 2893,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2893,
+      "name": "New Orleans Saints",
+      "short_name": "NO",
+      "conference": "NFC",
+      "division": "South",
+      "needs": [
+        "OLB",
+        "ILB",
+        "CB",
+        "QB",
+        "OT",
+        "ILB",
+        "C",
+        "TE",
+        "WR",
+        "DE"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 76,
     "round_num": 3,
     "pick_num": 12,
     "team_id": 2890,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2890,
+      "name": "Minnesota Vikings",
+      "short_name": "MIN",
+      "conference": "NFC",
+      "division": "North",
+      "needs": [
+        "CB",
+        "WR",
+        "RB",
+        "S",
+        "DT",
+        "C",
+        "ILB",
+        "S",
+        "OT",
+        "G"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 77,
     "round_num": 3,
     "pick_num": 13,
     "team_id": 2872,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2872,
+      "name": "Cleveland Browns",
+      "short_name": "CLE",
+      "conference": "AFC",
+      "division": "North",
+      "needs": [
+        "S",
+        "DE",
+        "ILB",
+        "DT",
+        "WR",
+        "RB",
+        "C",
+        "OT",
+        "WR",
+        "OLB"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 78,
     "round_num": 3,
     "pick_num": 14,
     "team_id": 2868,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2868,
+      "name": "Miami Dolphins",
+      "short_name": "MIA",
+      "conference": "AFC",
+      "division": "East",
+      "needs": [
+        "OLB",
+        "RB",
+        "S",
+        "ILB",
+        "CB",
+        "TE",
+        "DT",
+        "G",
+        "QB",
+        "C"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 79,
     "round_num": 3,
     "pick_num": 15,
     "team_id": 2897,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2897,
+      "name": "San Francisco 49ers",
+      "short_name": "SF",
+      "conference": "NFC",
+      "division": "West",
+      "needs": [
+        "CB",
+        "OLB",
+        "DT",
+        "ILB",
+        "G",
+        "RB",
+        "DE",
+        "WR",
+        "TE",
+        "QB"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 80,
     "round_num": 3,
     "pick_num": 16,
     "team_id": 2880,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2880,
+      "name": "Kansas City Chiefs",
+      "short_name": "KC",
+      "conference": "AFC",
+      "division": "West",
+      "needs": [
+        "WR",
+        "ILB",
+        "OT",
+        "G",
+        "S",
+        "CB",
+        "DE",
+        "C",
+        "WR",
+        "DT"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 81,
     "round_num": 3,
     "pick_num": 17,
     "team_id": 2867,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2867,
+      "name": "Buffalo Bills",
+      "short_name": "BUF",
+      "conference": "AFC",
+      "division": "East",
+      "needs": [
+        "S",
+        "TE",
+        "QB",
+        "OLB",
+        "G",
+        "RB",
+        "ILB",
+        "OT",
+        "CB"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 82,
     "round_num": 3,
     "pick_num": 18,
     "team_id": 2875,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2875,
+      "name": "Houston Texans",
+      "short_name": "HOU",
+      "conference": "AFC",
+      "division": "South",
+      "needs": [
+        "QB",
+        "ILB",
+        "S",
+        "OT",
+        "WR",
+        "G",
+        "RB",
+        "OLB",
+        "DT",
+        "CB",
+        "S"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 83,
     "round_num": 3,
     "pick_num": 19,
     "team_id": 2882,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2882,
+      "name": "San Diego Chargers",
+      "short_name": "SD",
+      "conference": "AFC",
+      "division": "West",
+      "needs": [
+        "DT",
+        "OT",
+        "OLB",
+        "RB",
+        "ILB",
+        "G",
+        "CB",
+        "WR",
+        "S",
+        "QB"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 84,
     "round_num": 3,
     "pick_num": 20,
     "team_id": 2885,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2885,
+      "name": "Philadelphia Eagles",
+      "short_name": "PHI",
+      "conference": "NFC",
+      "division": "East",
+      "needs": [
+        "ILB",
+        "DE",
+        "CB",
+        "G",
+        "DT",
+        "S",
+        "QB",
+        "WR",
+        "OT",
+        "TE"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 85,
     "round_num": 3,
     "pick_num": 21,
     "team_id": 2873,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2873,
+      "name": "Cincinnati Bengals",
+      "short_name": "CIN",
+      "conference": "AFC",
+      "division": "North",
+      "needs": [
+        "S",
+        "DE",
+        "C",
+        "OLB",
+        "S",
+        "ILB",
+        "CB",
+        "G",
+        "DT",
+        "OT"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 86,
     "round_num": 3,
     "pick_num": 22,
     "team_id": 2895,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2895,
+      "name": "Arizona Cardinals",
+      "short_name": "ARI",
+      "conference": "NFC",
+      "division": "West",
+      "needs": [
+        "QB",
+        "OLB",
+        "ILB",
+        "C",
+        "OLB",
+        "RB",
+        "OT",
+        "CB",
+        "QB",
+        "G",
+        "CB"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 87,
     "round_num": 3,
     "pick_num": 23,
     "team_id": 2874,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2874,
+      "name": "Pittsburgh Steelers",
+      "short_name": "PIT",
+      "conference": "AFC",
+      "division": "North",
+      "needs": [
+        "DT",
+        "DE",
+        "CB",
+        "G",
+        "OLB",
+        "S",
+        "OLB",
+        "TE",
+        "RB",
+        "QB",
+        "WR"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 88,
     "round_num": 3,
     "pick_num": 24,
     "team_id": 2888,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2888,
+      "name": "Detroit Lions",
+      "short_name": "DET",
+      "conference": "NFC",
+      "division": "North",
+      "needs": [
+        "CB",
+        "OLB",
+        "RB",
+        "ILB",
+        "C",
+        "S",
+        "OT",
+        "WR",
+        "OLB",
+        "CB",
+        "QB",
+        "WR"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 89,
     "round_num": 3,
     "pick_num": 25,
     "team_id": 2892,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2892,
+      "name": "Carolina Panthers",
+      "short_name": "CAR",
+      "conference": "NFC",
+      "division": "South",
+      "needs": [
+        "OT",
+        "S",
+        "OLB",
+        "G",
+        "WR",
+        "OT",
+        "TE",
+        "DE",
+        "CB",
+        "S"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 90,
     "round_num": 3,
     "pick_num": 26,
     "team_id": 2871,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2871,
+      "name": "Baltimore Ravens",
+      "short_name": "BAL",
+      "conference": "AFC",
+      "division": "North",
+      "needs": [
+        "TE",
+        "WR",
+        "G",
+        "CB",
+        "OT",
+        "RB",
+        "DE",
+        "DT",
+        "C",
+        "ILB",
+        "G"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 91,
     "round_num": 3,
     "pick_num": 27,
     "team_id": 2883,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2883,
+      "name": "Dallas Cowboys",
+      "short_name": "DAL",
+      "conference": "NFC",
+      "division": "East",
+      "needs": [
+        "DE",
+        "DT",
+        "CB",
+        "S",
+        "OLB",
+        "ILB",
+        "WR",
+        "QB",
+        "G",
+        "RB",
+        "S"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 92,
     "round_num": 3,
     "pick_num": 28,
     "team_id": 2879,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2879,
+      "name": "Denver Broncos",
+      "short_name": "DEN",
+      "conference": "AFC",
+      "division": "West",
+      "needs": [
+        "C",
+        "DE",
+        "OLB",
+        "OT",
+        "ILB",
+        "QB",
+        "G",
+        "RB",
+        "S",
+        "WR",
+        "DE"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 93,
     "round_num": 3,
     "pick_num": 29,
     "team_id": 2876,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2876,
+      "name": "Indianapolis Colts",
+      "short_name": "IND",
+      "conference": "AFC",
+      "division": "South",
+      "needs": [
+        "ILB",
+        "DE",
+        "G",
+        "RB",
+        "DT",
+        "S",
+        "WR",
+        "OT",
+        "CB"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 94,
     "round_num": 3,
     "pick_num": 30,
     "team_id": 2889,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2889,
+      "name": "Green Bay Packers",
+      "short_name": "GB",
+      "conference": "NFC",
+      "division": "North",
+      "needs": [
+        "OT",
+        "ILB",
+        "DT",
+        "TE",
+        "WR",
+        "C",
+        "OT",
+        "CB",
+        "QB",
+        "RB",
+        "OLB"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 95,
     "round_num": 3,
     "pick_num": 31,
     "team_id": 2896,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2896,
+      "name": "Seattle Seahawks",
+      "short_name": "SEA",
+      "conference": "NFC",
+      "division": "West",
+      "needs": [
+        "CB",
+        "WR",
+        "G",
+        "DE",
+        "OT",
+        "ILB",
+        "DT",
+        "OLB",
+        "S",
+        "QB",
+        "TE"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 96,
     "round_num": 3,
     "pick_num": 32,
     "team_id": 2870,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2870,
+      "name": "New England Patriots",
+      "short_name": "NE",
+      "conference": "AFC",
+      "division": "East",
+      "needs": [
+        "S",
+        "G",
+        "RB",
+        "WR",
+        "DT",
+        "TE",
+        "ILB",
+        "OLB",
+        "C"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 97,
     "round_num": 4,
     "pick_num": 1,
     "team_id": 2878,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2878,
+      "name": "Tennessee Titans",
+      "short_name": "TEN",
+      "conference": "AFC",
+      "division": "South",
+      "needs": [
+        "QB",
+        "OLB",
+        "DE",
+        "ILB",
+        "CB",
+        "S",
+        "DT",
+        "WR",
+        "RB",
+        "DE",
+        "S"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 98,
     "round_num": 4,
     "pick_num": 2,
     "team_id": 2870,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2870,
+      "name": "New England Patriots",
+      "short_name": "NE",
+      "conference": "AFC",
+      "division": "East",
+      "needs": [
+        "S",
+        "G",
+        "RB",
+        "WR",
+        "DT",
+        "TE",
+        "ILB",
+        "OLB",
+        "C"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 99,
     "round_num": 4,
     "pick_num": 3,
     "team_id": 2881,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2881,
+      "name": "Oakland Raiders",
+      "short_name": "OAK",
+      "conference": "AFC",
+      "division": "West",
+      "needs": [
+        "CB",
+        "DE",
+        "DT",
+        "WR",
+        "OT",
+        "RB",
+        "S",
+        "DT",
+        "G",
+        "CB",
+        "ILB",
+        "WR",
+        "OT",
+        "OLB",
+        "DE"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 100,
     "round_num": 4,
     "pick_num": 4,
     "team_id": 2877,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2877,
+      "name": "Jacksonville Jaguars",
+      "short_name": "JAX",
+      "conference": "AFC",
+      "division": "South",
+      "needs": [
+        "OLB",
+        "DE",
+        "CB",
+        "S",
+        "OT",
+        "RB",
+        "WR",
+        "RB",
+        "DT",
+        "G",
+        "C",
+        "TE"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 101,
     "round_num": 4,
     "pick_num": 5,
     "team_id": 2869,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2869,
+      "name": "New York Jets",
+      "short_name": "NYJ",
+      "conference": "AFC",
+      "division": "East",
+      "needs": [
+        "QB",
+        "WR",
+        "OLB",
+        "RB",
+        "G",
+        "DT",
+        "ILB",
+        "WR",
+        "OT",
+        "CB"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 102,
     "round_num": 4,
     "pick_num": 6,
     "team_id": 2886,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2886,
+      "name": "Washington Redtails",
+      "short_name": "WAS",
+      "conference": "NFC",
+      "division": "East",
+      "needs": [
+        "DT",
+        "S",
+        "G",
+        "OT",
+        "CB",
+        "ILB",
+        "C",
+        "S",
+        "RB",
+        "WR",
+        "QB",
+        "ILB"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 103,
     "round_num": 4,
     "pick_num": 7,
     "team_id": 2887,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2887,
+      "name": "Chicago Bears",
+      "short_name": "CHI",
+      "conference": "NFC",
+      "division": "North",
+      "needs": [
+        "DE",
+        "S",
+        "OLB",
+        "ILB",
+        "DT",
+        "OT",
+        "CB",
+        "G",
+        "QB",
+        "ILB"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 104,
     "round_num": 4,
     "pick_num": 8,
     "team_id": 2891,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2891,
+      "name": "Atlanta Falcons",
+      "short_name": "ATL",
+      "conference": "NFC",
+      "division": "South",
+      "needs": [
+        "DE",
+        "OLB",
+        "TE",
+        "S",
+        "RB",
+        "ILB",
+        "CB",
+        "DE",
+        "OT",
+        "G",
+        "S",
+        "WR",
+        "QB"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 105,
     "round_num": 4,
     "pick_num": 9,
     "team_id": 2884,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2884,
+      "name": "New York Giants",
+      "short_name": "NYG",
+      "conference": "NFC",
+      "division": "East",
+      "needs": [
+        "DE",
+        "ILB",
+        "WR",
+        "OLB",
+        "S",
+        "QB",
+        "OT",
+        "TE",
+        "CB"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 106,
     "round_num": 4,
     "pick_num": 10,
     "team_id": 2894,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2894,
+      "name": "Tampa Bay Buccaneers",
+      "short_name": "TB",
+      "conference": "NFC",
+      "division": "South",
+      "needs": [
+        "QB",
+        "DE",
+        "S",
+        "OT",
+        "OLB",
+        "DT",
+        "WR",
+        "G",
+        "CB",
+        "C",
+        "ILB"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 107,
     "round_num": 4,
     "pick_num": 11,
     "team_id": 2890,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2890,
+      "name": "Minnesota Vikings",
+      "short_name": "MIN",
+      "conference": "NFC",
+      "division": "North",
+      "needs": [
+        "CB",
+        "WR",
+        "RB",
+        "S",
+        "DT",
+        "C",
+        "ILB",
+        "S",
+        "OT",
+        "G"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 108,
     "round_num": 4,
     "pick_num": 12,
     "team_id": 2872,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2872,
+      "name": "Cleveland Browns",
+      "short_name": "CLE",
+      "conference": "AFC",
+      "division": "North",
+      "needs": [
+        "S",
+        "DE",
+        "ILB",
+        "DT",
+        "WR",
+        "RB",
+        "C",
+        "OT",
+        "WR",
+        "OLB"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 109,
     "round_num": 4,
     "pick_num": 13,
     "team_id": 2893,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2893,
+      "name": "New Orleans Saints",
+      "short_name": "NO",
+      "conference": "NFC",
+      "division": "South",
+      "needs": [
+        "OLB",
+        "ILB",
+        "CB",
+        "QB",
+        "OT",
+        "ILB",
+        "C",
+        "TE",
+        "WR",
+        "DE"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 110,
     "round_num": 4,
     "pick_num": 14,
     "team_id": 2885,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2885,
+      "name": "Philadelphia Eagles",
+      "short_name": "PHI",
+      "conference": "NFC",
+      "division": "East",
+      "needs": [
+        "ILB",
+        "DE",
+        "CB",
+        "G",
+        "DT",
+        "S",
+        "QB",
+        "WR",
+        "OT",
+        "TE"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 111,
     "round_num": 4,
     "pick_num": 15,
     "team_id": 2868,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2868,
+      "name": "Miami Dolphins",
+      "short_name": "MIA",
+      "conference": "AFC",
+      "division": "East",
+      "needs": [
+        "OLB",
+        "RB",
+        "S",
+        "ILB",
+        "CB",
+        "TE",
+        "DT",
+        "G",
+        "QB",
+        "C"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 112,
     "round_num": 4,
     "pick_num": 16,
     "team_id": 2872,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2872,
+      "name": "Cleveland Browns",
+      "short_name": "CLE",
+      "conference": "AFC",
+      "division": "North",
+      "needs": [
+        "S",
+        "DE",
+        "ILB",
+        "DT",
+        "WR",
+        "RB",
+        "C",
+        "OT",
+        "WR",
+        "OLB"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 113,
     "round_num": 4,
     "pick_num": 17,
     "team_id": 2875,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2875,
+      "name": "Houston Texans",
+      "short_name": "HOU",
+      "conference": "AFC",
+      "division": "South",
+      "needs": [
+        "QB",
+        "ILB",
+        "S",
+        "OT",
+        "WR",
+        "G",
+        "RB",
+        "OLB",
+        "DT",
+        "CB",
+        "S"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 114,
     "round_num": 4,
     "pick_num": 18,
     "team_id": 2882,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2882,
+      "name": "San Diego Chargers",
+      "short_name": "SD",
+      "conference": "AFC",
+      "division": "West",
+      "needs": [
+        "DT",
+        "OT",
+        "OLB",
+        "RB",
+        "ILB",
+        "G",
+        "CB",
+        "WR",
+        "S",
+        "QB"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 115,
     "round_num": 4,
     "pick_num": 19,
     "team_id": 2880,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2880,
+      "name": "Kansas City Chiefs",
+      "short_name": "KC",
+      "conference": "AFC",
+      "division": "West",
+      "needs": [
+        "WR",
+        "ILB",
+        "OT",
+        "G",
+        "S",
+        "CB",
+        "DE",
+        "C",
+        "WR",
+        "DT"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 116,
     "round_num": 4,
     "pick_num": 20,
     "team_id": 2885,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2885,
+      "name": "Philadelphia Eagles",
+      "short_name": "PHI",
+      "conference": "NFC",
+      "division": "East",
+      "needs": [
+        "ILB",
+        "DE",
+        "CB",
+        "G",
+        "DT",
+        "S",
+        "QB",
+        "WR",
+        "OT",
+        "TE"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 117,
     "round_num": 4,
     "pick_num": 21,
     "team_id": 2873,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2873,
+      "name": "Cincinnati Bengals",
+      "short_name": "CIN",
+      "conference": "AFC",
+      "division": "North",
+      "needs": [
+        "S",
+        "DE",
+        "C",
+        "OLB",
+        "S",
+        "ILB",
+        "CB",
+        "G",
+        "DT",
+        "OT"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 118,
     "round_num": 4,
     "pick_num": 22,
     "team_id": 2874,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2874,
+      "name": "Pittsburgh Steelers",
+      "short_name": "PIT",
+      "conference": "AFC",
+      "division": "North",
+      "needs": [
+        "DT",
+        "DE",
+        "CB",
+        "G",
+        "OLB",
+        "S",
+        "OLB",
+        "TE",
+        "RB",
+        "QB",
+        "WR"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 119,
     "round_num": 4,
     "pick_num": 23,
     "team_id": 2888,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2888,
+      "name": "Detroit Lions",
+      "short_name": "DET",
+      "conference": "NFC",
+      "division": "North",
+      "needs": [
+        "CB",
+        "OLB",
+        "RB",
+        "ILB",
+        "C",
+        "S",
+        "OT",
+        "WR",
+        "OLB",
+        "CB",
+        "QB",
+        "WR"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 120,
     "round_num": 4,
     "pick_num": 24,
     "team_id": 2895,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2895,
+      "name": "Arizona Cardinals",
+      "short_name": "ARI",
+      "conference": "NFC",
+      "division": "West",
+      "needs": [
+        "QB",
+        "OLB",
+        "ILB",
+        "C",
+        "OLB",
+        "RB",
+        "OT",
+        "CB",
+        "QB",
+        "G",
+        "CB"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 121,
     "round_num": 4,
     "pick_num": 25,
     "team_id": 2892,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2892,
+      "name": "Carolina Panthers",
+      "short_name": "CAR",
+      "conference": "NFC",
+      "division": "South",
+      "needs": [
+        "OT",
+        "S",
+        "OLB",
+        "G",
+        "WR",
+        "OT",
+        "TE",
+        "DE",
+        "CB",
+        "S"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 122,
     "round_num": 4,
     "pick_num": 26,
     "team_id": 2871,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2871,
+      "name": "Baltimore Ravens",
+      "short_name": "BAL",
+      "conference": "AFC",
+      "division": "North",
+      "needs": [
+        "TE",
+        "WR",
+        "G",
+        "CB",
+        "OT",
+        "RB",
+        "DE",
+        "DT",
+        "C",
+        "ILB",
+        "G"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 123,
     "round_num": 4,
     "pick_num": 27,
     "team_id": 2897,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2897,
+      "name": "San Francisco 49ers",
+      "short_name": "SF",
+      "conference": "NFC",
+      "division": "West",
+      "needs": [
+        "CB",
+        "OLB",
+        "DT",
+        "ILB",
+        "G",
+        "RB",
+        "DE",
+        "WR",
+        "TE",
+        "QB"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 124,
     "round_num": 4,
     "pick_num": 28,
     "team_id": 2883,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2883,
+      "name": "Dallas Cowboys",
+      "short_name": "DAL",
+      "conference": "NFC",
+      "division": "East",
+      "needs": [
+        "DE",
+        "DT",
+        "CB",
+        "S",
+        "OLB",
+        "ILB",
+        "WR",
+        "QB",
+        "G",
+        "RB",
+        "S"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 125,
     "round_num": 4,
     "pick_num": 29,
     "team_id": 2876,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2876,
+      "name": "Indianapolis Colts",
+      "short_name": "IND",
+      "conference": "AFC",
+      "division": "South",
+      "needs": [
+        "ILB",
+        "DE",
+        "G",
+        "RB",
+        "DT",
+        "S",
+        "WR",
+        "OT",
+        "CB"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 126,
     "round_num": 4,
     "pick_num": 30,
     "team_id": 2889,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2889,
+      "name": "Green Bay Packers",
+      "short_name": "GB",
+      "conference": "NFC",
+      "division": "North",
+      "needs": [
+        "OT",
+        "ILB",
+        "DT",
+        "TE",
+        "WR",
+        "C",
+        "OT",
+        "CB",
+        "QB",
+        "RB",
+        "OLB"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 127,
     "round_num": 4,
     "pick_num": 31,
     "team_id": 2896,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2896,
+      "name": "Seattle Seahawks",
+      "short_name": "SEA",
+      "conference": "NFC",
+      "division": "West",
+      "needs": [
+        "CB",
+        "WR",
+        "G",
+        "DE",
+        "OT",
+        "ILB",
+        "DT",
+        "OLB",
+        "S",
+        "QB",
+        "TE"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 128,
     "round_num": 4,
     "pick_num": 32,
     "team_id": 2870,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2870,
+      "name": "New England Patriots",
+      "short_name": "NE",
+      "conference": "AFC",
+      "division": "East",
+      "needs": [
+        "S",
+        "G",
+        "RB",
+        "WR",
+        "DT",
+        "TE",
+        "ILB",
+        "OLB",
+        "C"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 129,
     "round_num": 5,
     "pick_num": 1,
     "team_id": 2867,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2867,
+      "name": "Buffalo Bills",
+      "short_name": "BUF",
+      "conference": "AFC",
+      "division": "East",
+      "needs": [
+        "S",
+        "TE",
+        "QB",
+        "OLB",
+        "G",
+        "RB",
+        "ILB",
+        "OT",
+        "CB"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 130,
     "round_num": 5,
     "pick_num": 2,
     "team_id": 2878,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2878,
+      "name": "Tennessee Titans",
+      "short_name": "TEN",
+      "conference": "AFC",
+      "division": "South",
+      "needs": [
+        "QB",
+        "OLB",
+        "DE",
+        "ILB",
+        "CB",
+        "S",
+        "DT",
+        "WR",
+        "RB",
+        "DE",
+        "S"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 131,
     "round_num": 5,
     "pick_num": 3,
     "team_id": 2877,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2877,
+      "name": "Jacksonville Jaguars",
+      "short_name": "JAX",
+      "conference": "AFC",
+      "division": "South",
+      "needs": [
+        "OLB",
+        "DE",
+        "CB",
+        "S",
+        "OT",
+        "RB",
+        "WR",
+        "RB",
+        "DT",
+        "G",
+        "C",
+        "TE"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 132,
     "round_num": 5,
     "pick_num": 4,
     "team_id": 2881,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2881,
+      "name": "Oakland Raiders",
+      "short_name": "OAK",
+      "conference": "AFC",
+      "division": "West",
+      "needs": [
+        "CB",
+        "DE",
+        "DT",
+        "WR",
+        "OT",
+        "RB",
+        "S",
+        "DT",
+        "G",
+        "CB",
+        "ILB",
+        "WR",
+        "OT",
+        "OLB",
+        "DE"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 133,
     "round_num": 5,
     "pick_num": 5,
     "team_id": 2886,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2886,
+      "name": "Washington Redtails",
+      "short_name": "WAS",
+      "conference": "NFC",
+      "division": "East",
+      "needs": [
+        "DT",
+        "S",
+        "G",
+        "OT",
+        "CB",
+        "ILB",
+        "C",
+        "S",
+        "RB",
+        "WR",
+        "QB",
+        "ILB"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 134,
     "round_num": 5,
     "pick_num": 6,
     "team_id": 2869,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2869,
+      "name": "New York Jets",
+      "short_name": "NYJ",
+      "conference": "AFC",
+      "division": "East",
+      "needs": [
+        "QB",
+        "WR",
+        "OLB",
+        "RB",
+        "G",
+        "DT",
+        "ILB",
+        "WR",
+        "OT",
+        "CB"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 135,
     "round_num": 5,
     "pick_num": 7,
     "team_id": 2879,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2879,
+      "name": "Denver Broncos",
+      "short_name": "DEN",
+      "conference": "AFC",
+      "division": "West",
+      "needs": [
+        "C",
+        "DE",
+        "OLB",
+        "OT",
+        "ILB",
+        "QB",
+        "G",
+        "RB",
+        "S",
+        "WR",
+        "DE"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 136,
     "round_num": 5,
     "pick_num": 8,
     "team_id": 2884,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2884,
+      "name": "New York Giants",
+      "short_name": "NYG",
+      "conference": "NFC",
+      "division": "East",
+      "needs": [
+        "DE",
+        "ILB",
+        "WR",
+        "OLB",
+        "S",
+        "QB",
+        "OT",
+        "TE",
+        "CB"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 137,
     "round_num": 5,
     "pick_num": 9,
     "team_id": 2898,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2898,
+      "name": "St. Louis Rams",
+      "short_name": "STL",
+      "conference": "NFC",
+      "division": "West",
+      "needs": [
+        "QB",
+        "WR",
+        "OT",
+        "CB",
+        "ILB",
+        "S",
+        "G",
+        "RB",
+        "TE",
+        "OLB",
+        "ILB"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 138,
     "round_num": 5,
     "pick_num": 10,
     "team_id": 2891,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2891,
+      "name": "Atlanta Falcons",
+      "short_name": "ATL",
+      "conference": "NFC",
+      "division": "South",
+      "needs": [
+        "DE",
+        "OLB",
+        "TE",
+        "S",
+        "RB",
+        "ILB",
+        "CB",
+        "DE",
+        "OT",
+        "G",
+        "S",
+        "WR",
+        "QB"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 139,
     "round_num": 5,
     "pick_num": 11,
     "team_id": 2872,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2872,
+      "name": "Cleveland Browns",
+      "short_name": "CLE",
+      "conference": "AFC",
+      "division": "North",
+      "needs": [
+        "S",
+        "DE",
+        "ILB",
+        "DT",
+        "WR",
+        "RB",
+        "C",
+        "OT",
+        "WR",
+        "OLB"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 140,
     "round_num": 5,
     "pick_num": 12,
     "team_id": 2893,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2893,
+      "name": "New Orleans Saints",
+      "short_name": "NO",
+      "conference": "NFC",
+      "division": "South",
+      "needs": [
+        "OLB",
+        "ILB",
+        "CB",
+        "QB",
+        "OT",
+        "ILB",
+        "C",
+        "TE",
+        "WR",
+        "DE"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 141,
     "round_num": 5,
     "pick_num": 13,
     "team_id": 2890,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2890,
+      "name": "Minnesota Vikings",
+      "short_name": "MIN",
+      "conference": "NFC",
+      "division": "North",
+      "needs": [
+        "CB",
+        "WR",
+        "RB",
+        "S",
+        "DT",
+        "C",
+        "ILB",
+        "S",
+        "OT",
+        "G"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 142,
     "round_num": 5,
     "pick_num": 14,
     "team_id": 2868,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2868,
+      "name": "Miami Dolphins",
+      "short_name": "MIA",
+      "conference": "AFC",
+      "division": "East",
+      "needs": [
+        "OLB",
+        "RB",
+        "S",
+        "ILB",
+        "CB",
+        "TE",
+        "DT",
+        "G",
+        "QB",
+        "C"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 143,
     "round_num": 5,
     "pick_num": 15,
     "team_id": 2897,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2897,
+      "name": "San Francisco 49ers",
+      "short_name": "SF",
+      "conference": "NFC",
+      "division": "West",
+      "needs": [
+        "CB",
+        "OLB",
+        "DT",
+        "ILB",
+        "G",
+        "RB",
+        "DE",
+        "WR",
+        "TE",
+        "QB"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 144,
     "round_num": 5,
     "pick_num": 16,
     "team_id": 2875,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2875,
+      "name": "Houston Texans",
+      "short_name": "HOU",
+      "conference": "AFC",
+      "division": "South",
+      "needs": [
+        "QB",
+        "ILB",
+        "S",
+        "OT",
+        "WR",
+        "G",
+        "RB",
+        "OLB",
+        "DT",
+        "CB",
+        "S"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 145,
     "round_num": 5,
     "pick_num": 17,
     "team_id": 2882,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2882,
+      "name": "San Diego Chargers",
+      "short_name": "SD",
+      "conference": "AFC",
+      "division": "West",
+      "needs": [
+        "DT",
+        "OT",
+        "OLB",
+        "RB",
+        "ILB",
+        "G",
+        "CB",
+        "WR",
+        "S",
+        "QB"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 146,
     "round_num": 5,
     "pick_num": 18,
     "team_id": 2880,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2880,
+      "name": "Kansas City Chiefs",
+      "short_name": "KC",
+      "conference": "AFC",
+      "division": "West",
+      "needs": [
+        "WR",
+        "ILB",
+        "OT",
+        "G",
+        "S",
+        "CB",
+        "DE",
+        "C",
+        "WR",
+        "DT"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 147,
     "round_num": 5,
     "pick_num": 19,
     "team_id": 2867,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2867,
+      "name": "Buffalo Bills",
+      "short_name": "BUF",
+      "conference": "AFC",
+      "division": "East",
+      "needs": [
+        "S",
+        "TE",
+        "QB",
+        "OLB",
+        "G",
+        "RB",
+        "ILB",
+        "OT",
+        "CB"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 148,
     "round_num": 5,
     "pick_num": 20,
     "team_id": 2885,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2885,
+      "name": "Philadelphia Eagles",
+      "short_name": "PHI",
+      "conference": "NFC",
+      "division": "East",
+      "needs": [
+        "ILB",
+        "DE",
+        "CB",
+        "G",
+        "DT",
+        "S",
+        "QB",
+        "WR",
+        "OT",
+        "TE"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 149,
     "round_num": 5,
     "pick_num": 21,
     "team_id": 2873,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2873,
+      "name": "Cincinnati Bengals",
+      "short_name": "CIN",
+      "conference": "AFC",
+      "division": "North",
+      "needs": [
+        "S",
+        "DE",
+        "C",
+        "OLB",
+        "S",
+        "ILB",
+        "CB",
+        "G",
+        "DT",
+        "OT"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 150,
     "round_num": 5,
     "pick_num": 22,
     "team_id": 2888,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2888,
+      "name": "Detroit Lions",
+      "short_name": "DET",
+      "conference": "NFC",
+      "division": "North",
+      "needs": [
+        "CB",
+        "OLB",
+        "RB",
+        "ILB",
+        "C",
+        "S",
+        "OT",
+        "WR",
+        "OLB",
+        "CB",
+        "QB",
+        "WR"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 151,
     "round_num": 5,
     "pick_num": 23,
     "team_id": 2895,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2895,
+      "name": "Arizona Cardinals",
+      "short_name": "ARI",
+      "conference": "NFC",
+      "division": "West",
+      "needs": [
+        "QB",
+        "OLB",
+        "ILB",
+        "C",
+        "OLB",
+        "RB",
+        "OT",
+        "CB",
+        "QB",
+        "G",
+        "CB"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 152,
     "round_num": 5,
     "pick_num": 24,
     "team_id": 2874,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2874,
+      "name": "Pittsburgh Steelers",
+      "short_name": "PIT",
+      "conference": "AFC",
+      "division": "North",
+      "needs": [
+        "DT",
+        "DE",
+        "CB",
+        "G",
+        "OLB",
+        "S",
+        "OLB",
+        "TE",
+        "RB",
+        "QB",
+        "WR"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 153,
     "round_num": 5,
     "pick_num": 25,
     "team_id": 2892,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2892,
+      "name": "Carolina Panthers",
+      "short_name": "CAR",
+      "conference": "NFC",
+      "division": "South",
+      "needs": [
+        "OT",
+        "S",
+        "OLB",
+        "G",
+        "WR",
+        "OT",
+        "TE",
+        "DE",
+        "CB",
+        "S"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 154,
     "round_num": 5,
     "pick_num": 26,
     "team_id": 2894,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2894,
+      "name": "Tampa Bay Buccaneers",
+      "short_name": "TB",
+      "conference": "NFC",
+      "division": "South",
+      "needs": [
+        "QB",
+        "DE",
+        "S",
+        "OT",
+        "OLB",
+        "DT",
+        "WR",
+        "G",
+        "CB",
+        "C",
+        "ILB"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 155,
     "round_num": 5,
     "pick_num": 27,
     "team_id": 2883,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2883,
+      "name": "Dallas Cowboys",
+      "short_name": "DAL",
+      "conference": "NFC",
+      "division": "East",
+      "needs": [
+        "DE",
+        "DT",
+        "CB",
+        "S",
+        "OLB",
+        "ILB",
+        "WR",
+        "QB",
+        "G",
+        "RB",
+        "S"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 156,
     "round_num": 5,
     "pick_num": 28,
     "team_id": 2879,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2879,
+      "name": "Denver Broncos",
+      "short_name": "DEN",
+      "conference": "AFC",
+      "division": "West",
+      "needs": [
+        "C",
+        "DE",
+        "OLB",
+        "OT",
+        "ILB",
+        "QB",
+        "G",
+        "RB",
+        "S",
+        "WR",
+        "DE"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 157,
     "round_num": 5,
     "pick_num": 29,
     "team_id": 2876,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2876,
+      "name": "Indianapolis Colts",
+      "short_name": "IND",
+      "conference": "AFC",
+      "division": "South",
+      "needs": [
+        "ILB",
+        "DE",
+        "G",
+        "RB",
+        "DT",
+        "S",
+        "WR",
+        "OT",
+        "CB"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 158,
     "round_num": 5,
     "pick_num": 30,
     "team_id": 2889,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2889,
+      "name": "Green Bay Packers",
+      "short_name": "GB",
+      "conference": "NFC",
+      "division": "North",
+      "needs": [
+        "OT",
+        "ILB",
+        "DT",
+        "TE",
+        "WR",
+        "C",
+        "OT",
+        "CB",
+        "QB",
+        "RB",
+        "OLB"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 159,
     "round_num": 5,
     "pick_num": 31,
     "team_id": 2896,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2896,
+      "name": "Seattle Seahawks",
+      "short_name": "SEA",
+      "conference": "NFC",
+      "division": "West",
+      "needs": [
+        "CB",
+        "WR",
+        "G",
+        "DE",
+        "OT",
+        "ILB",
+        "DT",
+        "OLB",
+        "S",
+        "QB",
+        "TE"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 160,
     "round_num": 5,
     "pick_num": 32,
     "team_id": 2894,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2894,
+      "name": "Tampa Bay Buccaneers",
+      "short_name": "TB",
+      "conference": "NFC",
+      "division": "South",
+      "needs": [
+        "QB",
+        "DE",
+        "S",
+        "OT",
+        "OLB",
+        "DT",
+        "WR",
+        "G",
+        "CB",
+        "C",
+        "ILB"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 161,
     "round_num": 6,
     "pick_num": 1,
     "team_id": 2878,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2878,
+      "name": "Tennessee Titans",
+      "short_name": "TEN",
+      "conference": "AFC",
+      "division": "South",
+      "needs": [
+        "QB",
+        "OLB",
+        "DE",
+        "ILB",
+        "CB",
+        "S",
+        "DT",
+        "WR",
+        "RB",
+        "DE",
+        "S"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 162,
     "round_num": 6,
     "pick_num": 2,
     "team_id": 2870,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2870,
+      "name": "New England Patriots",
+      "short_name": "NE",
+      "conference": "AFC",
+      "division": "East",
+      "needs": [
+        "S",
+        "G",
+        "RB",
+        "WR",
+        "DT",
+        "TE",
+        "ILB",
+        "OLB",
+        "C"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 163,
     "round_num": 6,
     "pick_num": 3,
     "team_id": 2881,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2881,
+      "name": "Oakland Raiders",
+      "short_name": "OAK",
+      "conference": "AFC",
+      "division": "West",
+      "needs": [
+        "CB",
+        "DE",
+        "DT",
+        "WR",
+        "OT",
+        "RB",
+        "S",
+        "DT",
+        "G",
+        "CB",
+        "ILB",
+        "WR",
+        "OT",
+        "OLB",
+        "DE"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 164,
     "round_num": 6,
     "pick_num": 4,
     "team_id": 2877,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2877,
+      "name": "Jacksonville Jaguars",
+      "short_name": "JAX",
+      "conference": "AFC",
+      "division": "South",
+      "needs": [
+        "OLB",
+        "DE",
+        "CB",
+        "S",
+        "OT",
+        "RB",
+        "WR",
+        "RB",
+        "DT",
+        "G",
+        "C",
+        "TE"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 165,
     "round_num": 6,
     "pick_num": 5,
     "team_id": 2896,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2896,
+      "name": "Seattle Seahawks",
+      "short_name": "SEA",
+      "conference": "NFC",
+      "division": "West",
+      "needs": [
+        "CB",
+        "WR",
+        "G",
+        "DE",
+        "OT",
+        "ILB",
+        "DT",
+        "OLB",
+        "S",
+        "QB",
+        "TE"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 166,
     "round_num": 6,
     "pick_num": 6,
     "team_id": 2886,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2886,
+      "name": "Washington Redtails",
+      "short_name": "WAS",
+      "conference": "NFC",
+      "division": "East",
+      "needs": [
+        "DT",
+        "S",
+        "G",
+        "OT",
+        "CB",
+        "ILB",
+        "C",
+        "S",
+        "RB",
+        "WR",
+        "QB",
+        "ILB"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 167,
     "round_num": 6,
     "pick_num": 7,
     "team_id": 2887,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2887,
+      "name": "Chicago Bears",
+      "short_name": "CHI",
+      "conference": "NFC",
+      "division": "North",
+      "needs": [
+        "DE",
+        "S",
+        "OLB",
+        "ILB",
+        "DT",
+        "OT",
+        "CB",
+        "G",
+        "QB",
+        "ILB"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 168,
     "round_num": 6,
     "pick_num": 8,
     "team_id": 2894,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2894,
+      "name": "Tampa Bay Buccaneers",
+      "short_name": "TB",
+      "conference": "NFC",
+      "division": "South",
+      "needs": [
+        "QB",
+        "DE",
+        "S",
+        "OT",
+        "OLB",
+        "DT",
+        "WR",
+        "G",
+        "CB",
+        "C",
+        "ILB"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 169,
     "round_num": 6,
     "pick_num": 9,
     "team_id": 2891,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2891,
+      "name": "Atlanta Falcons",
+      "short_name": "ATL",
+      "conference": "NFC",
+      "division": "South",
+      "needs": [
+        "DE",
+        "OLB",
+        "TE",
+        "S",
+        "RB",
+        "ILB",
+        "CB",
+        "DE",
+        "OT",
+        "G",
+        "S",
+        "WR",
+        "QB"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 170,
     "round_num": 6,
     "pick_num": 10,
     "team_id": 2884,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2884,
+      "name": "New York Giants",
+      "short_name": "NYG",
+      "conference": "NFC",
+      "division": "East",
+      "needs": [
+        "DE",
+        "ILB",
+        "WR",
+        "OLB",
+        "S",
+        "QB",
+        "OT",
+        "TE",
+        "CB"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 171,
     "round_num": 6,
     "pick_num": 11,
     "team_id": 2893,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2893,
+      "name": "New Orleans Saints",
+      "short_name": "NO",
+      "conference": "NFC",
+      "division": "South",
+      "needs": [
+        "OLB",
+        "ILB",
+        "CB",
+        "QB",
+        "OT",
+        "ILB",
+        "C",
+        "TE",
+        "WR",
+        "DE"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 172,
     "round_num": 6,
     "pick_num": 12,
     "team_id": 2890,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2890,
+      "name": "Minnesota Vikings",
+      "short_name": "MIN",
+      "conference": "NFC",
+      "division": "North",
+      "needs": [
+        "CB",
+        "WR",
+        "RB",
+        "S",
+        "DT",
+        "C",
+        "ILB",
+        "S",
+        "OT",
+        "G"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 173,
     "round_num": 6,
     "pick_num": 13,
     "team_id": 2872,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2872,
+      "name": "Cleveland Browns",
+      "short_name": "CLE",
+      "conference": "AFC",
+      "division": "North",
+      "needs": [
+        "S",
+        "DE",
+        "ILB",
+        "DT",
+        "WR",
+        "RB",
+        "C",
+        "OT",
+        "WR",
+        "OLB"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 174,
     "round_num": 6,
     "pick_num": 14,
     "team_id": 2897,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2897,
+      "name": "San Francisco 49ers",
+      "short_name": "SF",
+      "conference": "NFC",
+      "division": "West",
+      "needs": [
+        "CB",
+        "OLB",
+        "DT",
+        "ILB",
+        "G",
+        "RB",
+        "DE",
+        "WR",
+        "TE",
+        "QB"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 175,
     "round_num": 6,
     "pick_num": 15,
     "team_id": 2868,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2868,
+      "name": "Miami Dolphins",
+      "short_name": "MIA",
+      "conference": "AFC",
+      "division": "East",
+      "needs": [
+        "OLB",
+        "RB",
+        "S",
+        "ILB",
+        "CB",
+        "TE",
+        "DT",
+        "G",
+        "QB",
+        "C"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 176,
     "round_num": 6,
     "pick_num": 16,
     "team_id": 2882,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2882,
+      "name": "San Diego Chargers",
+      "short_name": "SD",
+      "conference": "AFC",
+      "division": "West",
+      "needs": [
+        "DT",
+        "OT",
+        "OLB",
+        "RB",
+        "ILB",
+        "G",
+        "CB",
+        "WR",
+        "S",
+        "QB"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 177,
     "round_num": 6,
     "pick_num": 17,
     "team_id": 2880,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2880,
+      "name": "Kansas City Chiefs",
+      "short_name": "KC",
+      "conference": "AFC",
+      "division": "West",
+      "needs": [
+        "WR",
+        "ILB",
+        "OT",
+        "G",
+        "S",
+        "CB",
+        "DE",
+        "C",
+        "WR",
+        "DT"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 178,
     "round_num": 6,
     "pick_num": 18,
     "team_id": 2867,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2867,
+      "name": "Buffalo Bills",
+      "short_name": "BUF",
+      "conference": "AFC",
+      "division": "East",
+      "needs": [
+        "S",
+        "TE",
+        "QB",
+        "OLB",
+        "G",
+        "RB",
+        "ILB",
+        "OT",
+        "CB"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 179,
     "round_num": 6,
     "pick_num": 19,
     "team_id": 2875,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2875,
+      "name": "Houston Texans",
+      "short_name": "HOU",
+      "conference": "AFC",
+      "division": "South",
+      "needs": [
+        "QB",
+        "ILB",
+        "S",
+        "OT",
+        "WR",
+        "G",
+        "RB",
+        "OLB",
+        "DT",
+        "CB",
+        "S"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 180,
     "round_num": 6,
     "pick_num": 20,
     "team_id": 2885,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2885,
+      "name": "Philadelphia Eagles",
+      "short_name": "PHI",
+      "conference": "NFC",
+      "division": "East",
+      "needs": [
+        "ILB",
+        "DE",
+        "CB",
+        "G",
+        "DT",
+        "S",
+        "QB",
+        "WR",
+        "OT",
+        "TE"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 181,
     "round_num": 6,
     "pick_num": 21,
     "team_id": 2873,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2873,
+      "name": "Cincinnati Bengals",
+      "short_name": "CIN",
+      "conference": "AFC",
+      "division": "North",
+      "needs": [
+        "S",
+        "DE",
+        "C",
+        "OLB",
+        "S",
+        "ILB",
+        "CB",
+        "G",
+        "DT",
+        "OT"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 182,
     "round_num": 6,
     "pick_num": 22,
     "team_id": 2895,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2895,
+      "name": "Arizona Cardinals",
+      "short_name": "ARI",
+      "conference": "NFC",
+      "division": "West",
+      "needs": [
+        "QB",
+        "OLB",
+        "ILB",
+        "C",
+        "OLB",
+        "RB",
+        "OT",
+        "CB",
+        "QB",
+        "G",
+        "CB"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 183,
     "round_num": 6,
     "pick_num": 23,
     "team_id": 2874,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2874,
+      "name": "Pittsburgh Steelers",
+      "short_name": "PIT",
+      "conference": "AFC",
+      "division": "North",
+      "needs": [
+        "DT",
+        "DE",
+        "CB",
+        "G",
+        "OLB",
+        "S",
+        "OLB",
+        "TE",
+        "RB",
+        "QB",
+        "WR"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 184,
     "round_num": 6,
     "pick_num": 24,
     "team_id": 2888,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2888,
+      "name": "Detroit Lions",
+      "short_name": "DET",
+      "conference": "NFC",
+      "division": "North",
+      "needs": [
+        "CB",
+        "OLB",
+        "RB",
+        "ILB",
+        "C",
+        "S",
+        "OT",
+        "WR",
+        "OLB",
+        "CB",
+        "QB",
+        "WR"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 185,
     "round_num": 6,
     "pick_num": 25,
     "team_id": 2892,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2892,
+      "name": "Carolina Panthers",
+      "short_name": "CAR",
+      "conference": "NFC",
+      "division": "South",
+      "needs": [
+        "OT",
+        "S",
+        "OLB",
+        "G",
+        "WR",
+        "OT",
+        "TE",
+        "DE",
+        "CB",
+        "S"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 186,
     "round_num": 6,
     "pick_num": 26,
     "team_id": 2872,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2872,
+      "name": "Cleveland Browns",
+      "short_name": "CLE",
+      "conference": "AFC",
+      "division": "North",
+      "needs": [
+        "S",
+        "DE",
+        "ILB",
+        "DT",
+        "WR",
+        "RB",
+        "C",
+        "OT",
+        "WR",
+        "OLB"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 187,
     "round_num": 6,
     "pick_num": 27,
     "team_id": 2879,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2879,
+      "name": "Denver Broncos",
+      "short_name": "DEN",
+      "conference": "AFC",
+      "division": "West",
+      "needs": [
+        "C",
+        "DE",
+        "OLB",
+        "OT",
+        "ILB",
+        "QB",
+        "G",
+        "RB",
+        "S",
+        "WR",
+        "DE"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 188,
     "round_num": 6,
     "pick_num": 28,
     "team_id": 2871,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2871,
+      "name": "Baltimore Ravens",
+      "short_name": "BAL",
+      "conference": "AFC",
+      "division": "North",
+      "needs": [
+        "TE",
+        "WR",
+        "G",
+        "CB",
+        "OT",
+        "RB",
+        "DE",
+        "DT",
+        "C",
+        "ILB",
+        "G"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 189,
     "round_num": 6,
     "pick_num": 29,
     "team_id": 2876,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2876,
+      "name": "Indianapolis Colts",
+      "short_name": "IND",
+      "conference": "AFC",
+      "division": "South",
+      "needs": [
+        "ILB",
+        "DE",
+        "G",
+        "RB",
+        "DT",
+        "S",
+        "WR",
+        "OT",
+        "CB"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 190,
     "round_num": 6,
     "pick_num": 30,
     "team_id": 2889,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2889,
+      "name": "Green Bay Packers",
+      "short_name": "GB",
+      "conference": "NFC",
+      "division": "North",
+      "needs": [
+        "OT",
+        "ILB",
+        "DT",
+        "TE",
+        "WR",
+        "C",
+        "OT",
+        "CB",
+        "QB",
+        "RB",
+        "OLB"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 191,
     "round_num": 6,
     "pick_num": 31,
     "team_id": 2876,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2876,
+      "name": "Indianapolis Colts",
+      "short_name": "IND",
+      "conference": "AFC",
+      "division": "South",
+      "needs": [
+        "ILB",
+        "DE",
+        "G",
+        "RB",
+        "DT",
+        "S",
+        "WR",
+        "OT",
+        "CB"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 192,
     "round_num": 6,
     "pick_num": 32,
     "team_id": 2878,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2878,
+      "name": "Tennessee Titans",
+      "short_name": "TEN",
+      "conference": "AFC",
+      "division": "South",
+      "needs": [
+        "QB",
+        "OLB",
+        "DE",
+        "ILB",
+        "CB",
+        "S",
+        "DT",
+        "WR",
+        "RB",
+        "DE",
+        "S"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 193,
     "round_num": 7,
     "pick_num": 1,
     "team_id": 2894,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2894,
+      "name": "Tampa Bay Buccaneers",
+      "short_name": "TB",
+      "conference": "NFC",
+      "division": "South",
+      "needs": [
+        "QB",
+        "DE",
+        "S",
+        "OT",
+        "OLB",
+        "DT",
+        "WR",
+        "G",
+        "CB",
+        "C",
+        "ILB"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 194,
     "round_num": 7,
     "pick_num": 2,
     "team_id": 2870,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2870,
+      "name": "New England Patriots",
+      "short_name": "NE",
+      "conference": "AFC",
+      "division": "East",
+      "needs": [
+        "S",
+        "G",
+        "RB",
+        "WR",
+        "DT",
+        "TE",
+        "ILB",
+        "OLB",
+        "C"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 195,
     "round_num": 7,
     "pick_num": 3,
     "team_id": 2877,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2877,
+      "name": "Jacksonville Jaguars",
+      "short_name": "JAX",
+      "conference": "AFC",
+      "division": "South",
+      "needs": [
+        "OLB",
+        "DE",
+        "CB",
+        "S",
+        "OT",
+        "RB",
+        "WR",
+        "RB",
+        "DT",
+        "G",
+        "C",
+        "TE"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 196,
     "round_num": 7,
     "pick_num": 4,
     "team_id": 2881,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2881,
+      "name": "Oakland Raiders",
+      "short_name": "OAK",
+      "conference": "AFC",
+      "division": "West",
+      "needs": [
+        "CB",
+        "DE",
+        "DT",
+        "WR",
+        "OT",
+        "RB",
+        "S",
+        "DT",
+        "G",
+        "CB",
+        "ILB",
+        "WR",
+        "OT",
+        "OLB",
+        "DE"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 197,
     "round_num": 7,
     "pick_num": 5,
     "team_id": 2886,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2886,
+      "name": "Washington Redtails",
+      "short_name": "WAS",
+      "conference": "NFC",
+      "division": "East",
+      "needs": [
+        "DT",
+        "S",
+        "G",
+        "OT",
+        "CB",
+        "ILB",
+        "C",
+        "S",
+        "RB",
+        "WR",
+        "QB",
+        "ILB"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 198,
     "round_num": 7,
     "pick_num": 6,
     "team_id": 2869,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2869,
+      "name": "New York Jets",
+      "short_name": "NYJ",
+      "conference": "AFC",
+      "division": "East",
+      "needs": [
+        "QB",
+        "WR",
+        "OLB",
+        "RB",
+        "G",
+        "DT",
+        "ILB",
+        "WR",
+        "OT",
+        "CB"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 199,
     "round_num": 7,
     "pick_num": 7,
     "team_id": 2887,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2887,
+      "name": "Chicago Bears",
+      "short_name": "CHI",
+      "conference": "NFC",
+      "division": "North",
+      "needs": [
+        "DE",
+        "S",
+        "OLB",
+        "ILB",
+        "DT",
+        "OT",
+        "CB",
+        "G",
+        "QB",
+        "ILB"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 200,
     "round_num": 7,
     "pick_num": 8,
     "team_id": 2891,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2891,
+      "name": "Atlanta Falcons",
+      "short_name": "ATL",
+      "conference": "NFC",
+      "division": "South",
+      "needs": [
+        "DE",
+        "OLB",
+        "TE",
+        "S",
+        "RB",
+        "ILB",
+        "CB",
+        "DE",
+        "OT",
+        "G",
+        "S",
+        "WR",
+        "QB"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 201,
     "round_num": 7,
     "pick_num": 9,
     "team_id": 2884,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2884,
+      "name": "New York Giants",
+      "short_name": "NYG",
+      "conference": "NFC",
+      "division": "East",
+      "needs": [
+        "DE",
+        "ILB",
+        "WR",
+        "OLB",
+        "S",
+        "QB",
+        "OT",
+        "TE",
+        "CB"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 202,
     "round_num": 7,
     "pick_num": 10,
     "team_id": 2898,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2898,
+      "name": "St. Louis Rams",
+      "short_name": "STL",
+      "conference": "NFC",
+      "division": "West",
+      "needs": [
+        "QB",
+        "WR",
+        "OT",
+        "CB",
+        "ILB",
+        "S",
+        "G",
+        "RB",
+        "TE",
+        "OLB",
+        "ILB"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 203,
     "round_num": 7,
     "pick_num": 11,
     "team_id": 2890,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2890,
+      "name": "Minnesota Vikings",
+      "short_name": "MIN",
+      "conference": "NFC",
+      "division": "North",
+      "needs": [
+        "CB",
+        "WR",
+        "RB",
+        "S",
+        "DT",
+        "C",
+        "ILB",
+        "S",
+        "OT",
+        "G"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 204,
     "round_num": 7,
     "pick_num": 12,
     "team_id": 2872,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2872,
+      "name": "Cleveland Browns",
+      "short_name": "CLE",
+      "conference": "AFC",
+      "division": "North",
+      "needs": [
+        "S",
+        "DE",
+        "ILB",
+        "DT",
+        "WR",
+        "RB",
+        "C",
+        "OT",
+        "WR",
+        "OLB"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 205,
     "round_num": 7,
     "pick_num": 13,
     "team_id": 2893,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2893,
+      "name": "New Orleans Saints",
+      "short_name": "NO",
+      "conference": "NFC",
+      "division": "South",
+      "needs": [
+        "OLB",
+        "ILB",
+        "CB",
+        "QB",
+        "OT",
+        "ILB",
+        "C",
+        "TE",
+        "WR",
+        "DE"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 206,
     "round_num": 7,
     "pick_num": 14,
     "team_id": 2871,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2871,
+      "name": "Baltimore Ravens",
+      "short_name": "BAL",
+      "conference": "AFC",
+      "division": "North",
+      "needs": [
+        "TE",
+        "WR",
+        "G",
+        "CB",
+        "OT",
+        "RB",
+        "DE",
+        "DT",
+        "C",
+        "ILB",
+        "G"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 207,
     "round_num": 7,
     "pick_num": 15,
     "team_id": 2868,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2868,
+      "name": "Miami Dolphins",
+      "short_name": "MIA",
+      "conference": "AFC",
+      "division": "East",
+      "needs": [
+        "OLB",
+        "RB",
+        "S",
+        "ILB",
+        "CB",
+        "TE",
+        "DT",
+        "G",
+        "QB",
+        "C"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 208,
     "round_num": 7,
     "pick_num": 16,
     "team_id": 2880,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2880,
+      "name": "Kansas City Chiefs",
+      "short_name": "KC",
+      "conference": "AFC",
+      "division": "West",
+      "needs": [
+        "WR",
+        "ILB",
+        "OT",
+        "G",
+        "S",
+        "CB",
+        "DE",
+        "C",
+        "WR",
+        "DT"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 209,
     "round_num": 7,
     "pick_num": 17,
     "team_id": 2867,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2867,
+      "name": "Buffalo Bills",
+      "short_name": "BUF",
+      "conference": "AFC",
+      "division": "East",
+      "needs": [
+        "S",
+        "TE",
+        "QB",
+        "OLB",
+        "G",
+        "RB",
+        "ILB",
+        "OT",
+        "CB"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 210,
     "round_num": 7,
     "pick_num": 18,
     "team_id": 2875,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2875,
+      "name": "Houston Texans",
+      "short_name": "HOU",
+      "conference": "AFC",
+      "division": "South",
+      "needs": [
+        "QB",
+        "ILB",
+        "S",
+        "OT",
+        "WR",
+        "G",
+        "RB",
+        "OLB",
+        "DT",
+        "CB",
+        "S"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 211,
     "round_num": 7,
     "pick_num": 19,
     "team_id": 2883,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2883,
+      "name": "Dallas Cowboys",
+      "short_name": "DAL",
+      "conference": "NFC",
+      "division": "East",
+      "needs": [
+        "DE",
+        "DT",
+        "CB",
+        "S",
+        "OLB",
+        "ILB",
+        "WR",
+        "QB",
+        "G",
+        "RB",
+        "S"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 212,
     "round_num": 7,
     "pick_num": 20,
     "team_id": 2885,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2885,
+      "name": "Philadelphia Eagles",
+      "short_name": "PHI",
+      "conference": "NFC",
+      "division": "East",
+      "needs": [
+        "ILB",
+        "DE",
+        "CB",
+        "G",
+        "DT",
+        "S",
+        "QB",
+        "WR",
+        "OT",
+        "TE"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 213,
     "round_num": 7,
     "pick_num": 21,
     "team_id": 2873,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2873,
+      "name": "Cincinnati Bengals",
+      "short_name": "CIN",
+      "conference": "AFC",
+      "division": "North",
+      "needs": [
+        "S",
+        "DE",
+        "C",
+        "OLB",
+        "S",
+        "ILB",
+        "CB",
+        "G",
+        "DT",
+        "OT"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 214,
     "round_num": 7,
     "pick_num": 22,
     "team_id": 2874,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2874,
+      "name": "Pittsburgh Steelers",
+      "short_name": "PIT",
+      "conference": "AFC",
+      "division": "North",
+      "needs": [
+        "DT",
+        "DE",
+        "CB",
+        "G",
+        "OLB",
+        "S",
+        "OLB",
+        "TE",
+        "RB",
+        "QB",
+        "WR"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 215,
     "round_num": 7,
     "pick_num": 23,
     "team_id": 2888,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2888,
+      "name": "Detroit Lions",
+      "short_name": "DET",
+      "conference": "NFC",
+      "division": "North",
+      "needs": [
+        "CB",
+        "OLB",
+        "RB",
+        "ILB",
+        "C",
+        "S",
+        "OT",
+        "WR",
+        "OLB",
+        "CB",
+        "QB",
+        "WR"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 216,
     "round_num": 7,
     "pick_num": 24,
     "team_id": 2895,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2895,
+      "name": "Arizona Cardinals",
+      "short_name": "ARI",
+      "conference": "NFC",
+      "division": "West",
+      "needs": [
+        "QB",
+        "OLB",
+        "ILB",
+        "C",
+        "OLB",
+        "RB",
+        "OT",
+        "CB",
+        "QB",
+        "G",
+        "CB"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 217,
     "round_num": 7,
     "pick_num": 25,
     "team_id": 2892,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2892,
+      "name": "Carolina Panthers",
+      "short_name": "CAR",
+      "conference": "NFC",
+      "division": "South",
+      "needs": [
+        "OT",
+        "S",
+        "OLB",
+        "G",
+        "WR",
+        "OT",
+        "TE",
+        "DE",
+        "CB",
+        "S"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 218,
     "round_num": 7,
     "pick_num": 26,
     "team_id": 2883,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2883,
+      "name": "Dallas Cowboys",
+      "short_name": "DAL",
+      "conference": "NFC",
+      "division": "East",
+      "needs": [
+        "DE",
+        "DT",
+        "CB",
+        "S",
+        "OLB",
+        "ILB",
+        "WR",
+        "QB",
+        "G",
+        "RB",
+        "S"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 219,
     "round_num": 7,
     "pick_num": 27,
     "team_id": 2876,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2876,
+      "name": "Indianapolis Colts",
+      "short_name": "IND",
+      "conference": "AFC",
+      "division": "South",
+      "needs": [
+        "ILB",
+        "DE",
+        "G",
+        "RB",
+        "DT",
+        "S",
+        "WR",
+        "OT",
+        "CB"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 220,
     "round_num": 7,
     "pick_num": 28,
     "team_id": 2884,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2884,
+      "name": "New York Giants",
+      "short_name": "NYG",
+      "conference": "NFC",
+      "division": "East",
+      "needs": [
+        "DE",
+        "ILB",
+        "WR",
+        "OLB",
+        "S",
+        "QB",
+        "OT",
+        "TE",
+        "CB"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 221,
     "round_num": 7,
     "pick_num": 29,
     "team_id": 2897,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2897,
+      "name": "San Francisco 49ers",
+      "short_name": "SF",
+      "conference": "NFC",
+      "division": "West",
+      "needs": [
+        "CB",
+        "OLB",
+        "DT",
+        "ILB",
+        "G",
+        "RB",
+        "DE",
+        "WR",
+        "TE",
+        "QB"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 222,
     "round_num": 7,
     "pick_num": 30,
     "team_id": 2889,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2889,
+      "name": "Green Bay Packers",
+      "short_name": "GB",
+      "conference": "NFC",
+      "division": "North",
+      "needs": [
+        "OT",
+        "ILB",
+        "DT",
+        "TE",
+        "WR",
+        "C",
+        "OT",
+        "CB",
+        "QB",
+        "RB",
+        "OLB"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 223,
     "round_num": 7,
     "pick_num": 31,
     "team_id": 2896,
-    "tradeable": false
+    "tradeable": false,
+    "team": {
+      "id": 2896,
+      "name": "Seattle Seahawks",
+      "short_name": "SEA",
+      "conference": "NFC",
+      "division": "West",
+      "needs": [
+        "CB",
+        "WR",
+        "G",
+        "DE",
+        "OT",
+        "ILB",
+        "DT",
+        "OLB",
+        "S",
+        "QB",
+        "TE"
+      ]
+    }
   },
   {
-    "pick_id": 0,
+    "pick_order_id": 0,
     "round_num": 7,
     "pick_num": 32,
     "team_id": 2891,
-    "tradeable": false
+    "tradeable": false,
+    "team": null
   }
 ]

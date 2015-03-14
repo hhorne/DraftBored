@@ -10,7 +10,8 @@ javascript:
             "wwwroot/lib/angular-touch/angular-touch.js",
             "wwwroot/lib/angular-route/angular-route.js",
             "wwwroot/lib/angular-ui/build/angular-ui.js",
-            "wwwroot/lib/angular-bootstrap/ui-bootstrap-tpls.js"]
+            "wwwroot/lib/angular-bootstrap/ui-bootstrap-tpls.js",
+            "wwwroot/lib/string-formatter/string-formatter.js"]
 
 json:
     options:
@@ -19,7 +20,7 @@ json:
         separator: ",\n"
     src: 
     - "Data/**/*.json"
-    dest: "wwwroot/Data/Draft.json"
+    dest: "wwwroot/Data/Draft2015.json"
 
 css:
     files:

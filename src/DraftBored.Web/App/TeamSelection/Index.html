@@ -1,9 +1,0 @@
-﻿<div id="teamSelection">
-	<h2>Select a Team to Draft as...</h2>
-	<div ng-repeat="t in vm.teams" class="{{t.short_name}} logo" ng-click="vm.SelectTeam(t)" ng-class="{ selected: vm.IsTeamSelected(t) }">
-		<div class="overlay">
-			{{t.name}}
-		</div>
-	</div>
-</div>
-`

@@ -66,7 +66,7 @@
 	{
 		"id" : "2875",
 		"name" : "Houston Texans",
-		"short_name" : "texans",
+		"short_name" : "HOU",
 		"conference": "AFC",
 		"division": "South",
 		"needs" : ["QB", "ILB", "S", "OT", "WR", "G", "RB", "OLB", "DT", "CB", "S"]
@@ -114,7 +114,7 @@
 	{
 		"id" : "2881",
 		"name" : "Oakland Raiders",
-		"short_name" : "raiders",
+		"short_name" : "OAK",
 		"conference": "AFC",
 		"division": "West",
 		"needs" : ["CB", "DE", "DT", "WR", "OT", "RB", "S", "DT", "G", "CB", "ILB", "WR", "OT", "OLB", "DE"]
@@ -226,7 +226,7 @@
 	{
 		"id" : "2895",
 		"name" : "Arizona Cardinals",
-		"short_name" : "AZ",
+		"short_name" : "ARI",
 		"conference": "NFC",
 		"division": "West",
 		"needs" : ["QB", "OLB", "ILB", "C", "OLB", "RB", "OT", "CB", "QB", "G", "CB"]

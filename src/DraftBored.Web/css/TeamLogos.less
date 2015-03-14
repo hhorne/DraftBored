@@ -1,13 +1,11 @@
-﻿@import '../../Css/TeamColors.less';
+﻿@import 'TeamColors.less';
 
 @logoHeight: 96px;
 @logoWidth: 320px;
 
 .logo {
-	cursor: pointer;
 	display: inline-block;
 	height: @logoHeight;
-	vertical-align: top;
 	width: @logoWidth;
 
 	.overlay {
@@ -23,11 +21,15 @@
 
 	&.selected .overlay, &:hover .overlay {
 		opacity: 1;
-	    transition: opacity 0.40s ease-in-out;
-		-o-transition: opacity .60s ease-in-out;
-		-moz-transition: opacity 0.40s ease-in-out;
-		-webkit-transition: opacity 0.40s ease-in-out;
+	    transition: opacity 0.2s ease-in-out;
+		-o-transition: opacity 0.2s ease-in-out;
+		-moz-transition: opacity 0.2s ease-in-out;
+		-webkit-transition: opacity 0.2s ease-in-out;
 	}
+}
+
+.logo.selectable {
+	cursor: pointer;
 }
 
 .logo-colors(@bgColor, @textColor, @selectedColor) {

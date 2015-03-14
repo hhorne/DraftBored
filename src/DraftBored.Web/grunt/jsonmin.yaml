@@ -6,4 +6,4 @@ all:
         stripComments: true
 
     files:
-        "wwwroot/Data/Draft.min.json": "wwwroot/Data/Draft.json"
+        "wwwroot/Data/Draft2015.min.json": "wwwroot/Data/Draft2015.json"
