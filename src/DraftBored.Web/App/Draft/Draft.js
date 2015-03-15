@@ -11,6 +11,7 @@
 			vm.teams = draft.teams;
 			vm.picks = draft.picks;
 			vm.prospects = draft.prospects;
+			vm.drafted = [{}, {}, {}, {}, {}];
 
 			var userTeam =
 				draft.teams.filter(function (t) {

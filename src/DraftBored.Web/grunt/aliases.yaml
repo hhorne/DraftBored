@@ -19,7 +19,7 @@ buildjs:
 default:
 - "lint"
 - "clean:build"
-- "bower:install"
+- "bower"
 - "concat"
 - "ngAnnotate"
 - "less"

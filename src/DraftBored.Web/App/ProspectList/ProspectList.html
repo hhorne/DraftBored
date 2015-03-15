@@ -1,0 +1,14 @@
+﻿<div class="prospectList scrollbar style-1">
+	<div class="prospectCard" ng-repeat="p in prospects">
+		<div class="positionPlate">
+			{{p.position}}
+		</div>
+		<div class="silhouette"></div>
+		<div class="namePlate">
+			<a href="{{p.stats_url}}" target="_blank">{{p.name}}</a>
+			<div class="school">
+				{{p.school}}
+			</div>
+		</div>
+	</div>
+</div>

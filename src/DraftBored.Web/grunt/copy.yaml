@@ -50,3 +50,10 @@ fonts:
             filter: "isFile"
             flatten: true
             expand: true
+
+img:
+    files:
+        -   src: ["img/**/*"]
+            dest: "wwwroot/"
+            filter: "isFile"
+            expand: true

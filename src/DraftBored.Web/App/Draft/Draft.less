@@ -2,8 +2,10 @@
 
 .dashboard {
 	h1, h2, h3 {
+		background-color: rgba(0, 0, 0, 0.8);
+		color: #eee;
 		margin: 0;
-		padding: 0;
+		padding: 6px 24px;
 	}  
 
 	display: -webkit-box;
@@ -11,59 +13,9 @@
 	display: -ms-flexbox;
 	display: -webkit-flex;
 	display: flex;
-  
+	margin: 6px 0 0 8px;
 	-webkit-flex-flow: row wrap;
 	justify-content: flex-start;
-}
-
-
-
-.prospectCard {
-	background-color: whitesmoke;
-	display: -webkit-box;
-	display: -moz-box;
-	display: -ms-flexbox;
-	display: -webkit-flex;
-	display: flex;
-	height: 64px;
-	-webkit-flex-flow: row wrap;
-	
-	justify-content: flex-start;
-
-	width: 450px;
-}
-
-.prospectCard:not(:last-child) {
-	border-bottom: 1px solid #ddd;
-}
-
-.prospectCard .positionPlate {
-	background-color: rgba(0, 0, 0, 0.8);
-	color: white;
-	font-size: 16px;
-	font-weight: bold;
-	line-height: 64px;
-	text-align: center;
-	width: 64px;
-}
-
-.prospectCard:hover .positionPlate {
-	background-color: rgba(0, 0, 0, .9);
-}
-
-.prospectCard .namePlate {
-	font-size: 24px;
-	margin-left: 12px;
-	margin-top: 4px;
-	width: 256px;
-}
-
-.prospectCard:hover {
-	background-color: #fff;
-}
-
-.namePlate .school {
-	font-size: 16px;
 }
 
 .upcomingPicks {
@@ -85,67 +37,56 @@
 .upcomingPicks .pickNumber {
 	text-align: center;
 	width: 64px;
-	background-color: rgba(0,0,0, 0.8);	
+	background-color: rgba(0,0,0, 0.6);	
 }
 
-.draftPool {
-	height: 720px;
+.upcomingPicks {
+	height: 505px;
 }
 
-.upcomingPicks, .draftPool {
-	height: 720px;
-}
-
-.scrollbar {
-	overflow-y: scroll;
-	overflow-x: hidden;
-}
-
-.style-1::-webkit-scrollbar-track {
-	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
-	border-radius: 10px;
-	background-color: #F5F5F5;
-}
-
-.style-1::-webkit-scrollbar {
-	width: 12px;
-	background-color: #F5F5F5;
-}
-
-.style-1::-webkit-scrollbar-thumb {
-	border-radius: 10px;
-	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
-	background-color: #555;
+.pick, .prospectCard {
+	margin-bottom: 5px;
 }
 
 .rounds {
-	width: 700px;
+	width: 926px;
 }
 
 .rounds ul {
-	height: 96px;
+	display: inline-block;
 	list-style: none;
-	margin: 0;
+	margin: 6px 0 0 24px;
 	padding: 0;
 }
 
 .rounds li {
 	display: inline-block;
 	font-size: 24px;
+	height: 48px;
+	line-height: 48px;
 	margin: 0;
 	padding: 0;
 	text-align: center;
-	cursor: not-allowed;
+	width: 32px;
 }
 
 .rounds .currentRound {
-	border-bottom: 2px solid black;
+	background-color: rgba(0, 0, 0, 0.8);
+	color: white;
 }
 
 .rounds .currentRound, .rounds .finished {
 	cursor: pointer;
 }
 
-.dashboard .team, .rounds, .rounds li:not(:last-child), .draftOrder {
-	margin-right: 24px;
+.dashboard .team, .rounds, .rounds li:not(:last-child), .draftOrder, .draftPool {
+	margin-right: 12px;
+}
+
+.rounds, .team {
+	height: 96px;
+	margin-bottom: 6px;
+}
+
+.startStop {
 }

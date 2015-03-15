@@ -1,4 +1,10 @@
-﻿install:
+﻿all:
+    options:
+        targetDir: "wwwroot/lib"
+        layout: "byComponent"
+        cleanTargetDir: false
+
+install:
     options:
         targetDir: "wwwroot/lib"
         layout: "byComponent"
