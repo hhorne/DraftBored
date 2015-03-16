@@ -24,10 +24,14 @@
 	</div>
 	<div class="draftPool">
 		<h3>Drafted</h3>
-		<prospect-list prospects="vm.drafted"></prospect-list>
+		<div class="prospectList scrollbar style-1">
+			<prospect-card ng-repeat="p in vm.drafted" prospect="p" />
+		</div>
 	</div>
 	<div class="draftPool">
 		<h3>Prospects</h3>
-		<prospect-list prospects="vm.prospects"></prospect-list>
+		<div class="prospectList scrollbar style-1">
+			<prospect-card ng-repeat="p in vm.prospects" prospect="p" ng-click="vm.selectProspect(p)" />
+		</div>
 	</div>
 </div>

@@ -6,6 +6,12 @@
 		var vm = this;
 		vm.round = 1;
 		vm.rounds = [1, 2, 3, 4, 5, 6, 7];
+		vm.selectedProspect = {};
+
+		vm.selectProspect = function (prospect) {
+			vm.selectedProspect = prospect;
+			console.log(prospect.name);
+		};
 
 		vm.loadDraft = function (draft) {
 			vm.teams = draft.teams;
