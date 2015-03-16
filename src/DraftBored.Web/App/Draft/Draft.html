@@ -6,10 +6,13 @@
 	</div>
 	<div class="rounds">
 		<h3>Rounds</h3>
-		<span class="startStop glyphicon glyphicon-play"></span>
 		<ul>
 			<li ng-class="{currentRound: r === vm.round }" ng-repeat="r in vm.rounds">{{r}}</li>
 		</ul>
+		<a href="" class="startStop" ng-click="vm.toggleDraft()">
+			<span class="startStop glyphicon" ng-class="{ 'glyphicon-play': vm.isInProgress() == false, 'glyphicon-pause': vm.isInProgress() }"></span>
+			{{ vm.isInProgress() ? "Pause Draft" : "Start Draft" }}
+		</a>
 	</div>
 
 	<div class="draftOrder">

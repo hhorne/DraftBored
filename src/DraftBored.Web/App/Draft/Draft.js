@@ -6,11 +6,28 @@
 		var vm = this;
 		vm.round = 1;
 		vm.rounds = [1, 2, 3, 4, 5, 6, 7];
+
 		vm.selectedProspect = {};
+		vm.started = false;
+		vm.inProgress = false;
 
 		vm.selectProspect = function (prospect) {
 			vm.selectedProspect = prospect;
-			console.log(prospect.name);
+			console.log(vm.selectedProspect.name);
+		};
+
+		vm.toggleDraft = function () {
+			if (vm.inProgress) {
+				vm.inProgress = false;
+			}
+			else {
+				vm.started = true;
+				vm.inProgress = true;
+			}
+		};
+
+		vm.isInProgress = function () {
+			return vm.inProgress;
 		};
 
 		vm.loadDraft = function (draft) {
@@ -35,9 +52,7 @@
 			DataService
 				.GetDraft(2015)
 				.success(function (data, status, headers, config) {
-
 					DraftSettings.load(data);
-
 					vm.settings = DraftSettings;
 					vm.loadDraft(vm.settings);
 				})
