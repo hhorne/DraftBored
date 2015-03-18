@@ -1,0 +1,40 @@
+﻿<div class="dashboard">
+	<div class="team">
+		<div class="{{vm.draft.team.short_name}} logo selecting">
+			<h3>My Team</h3>
+		</div>
+	</div>
+	<div class="rounds">
+		<h3>Rounds</h3>
+		<ul>
+			<li ng-class="{currentRound: r === vm.draft.round }" ng-repeat="r in vm.draft.rounds">{{r}}</li>
+		</ul>
+		<a href="" class="startStop" ng-click="vm.toggleSim()">
+			<span class="startStop glyphicon" ng-class="{ 'glyphicon-play': !vm.draft.isInProgress(), 'glyphicon-pause': vm.draft.isInProgress() }"></span>
+			{{ vm.isInProgress() ? "Pause Draft" : "Start Draft" }}
+		</a>
+	</div>
+
+	<div class="draftOrder">
+		<h3>Round {{vm.draft.round}}</h3>
+		<div class="upcomingPicks scrollbar style-1">
+			<div class="pick {{p.team.short_name}} logo" ng-repeat="p in vm.draft.picks">
+				<div class="pickNumber">
+					{{p.pick_num}}
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="draftPool">
+		<h3>Drafted</h3>
+		<div class="prospectList scrollbar style-1">
+			<div ng-repeat="prospect in vm.draft.drafted" ng-include src="'App/ProspectCard/DraftedCard.html'"></div>
+		</div>
+	</div>
+	<div class="draftPool">
+		<h3>Prospects</h3>
+		<div class="prospectList scrollbar style-1">
+			<div ng-repeat="prospect in vm.draft.prospects" ng-include src="'App/ProspectCard/ProspectCard.html'" ng-click="vm.selectProspect(prospect)"></div>
+		</div>
+	</div>
+</div>

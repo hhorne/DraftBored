@@ -30,7 +30,7 @@
 			if (vm.selectedTeam === "undefined" || vm.selectedTeam === null)
 				return;
 
-			DraftSettings.load(vm.draft);
+			DraftSettings.load(vm.selectedTeam, vm.draft);
 
 			$location.path("/draft/" + vm.selectedTeam.short_name.toLowerCase());
 		};

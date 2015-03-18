@@ -1,12 +1,15 @@
-﻿<div class="prospectCard">
+﻿<div class="draftedCard prospectCard">
 	<div class="positionPlate">
 		{{prospect.position}}
 	</div>
 	<div class="silhouette"></div>
 	<div class="namePlate">
 		<a href="{{prospect.stats_url}}" target="_blank">{{prospect.name}}</a>
-		<div class="detail" ng-show="!prospect.team">
-			{{prospect.school}}
+		<div class="detail">
+			{{prospect.selection.team.name}}
+		</div>
+		<div class="detail">
+			Round {{prospect.selection.round_num}} Pick {{prospect.selection.pick_num}}
 		</div>
 	</div>
 </div>
