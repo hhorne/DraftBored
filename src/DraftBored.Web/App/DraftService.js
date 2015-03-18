@@ -6,12 +6,7 @@
 		var svc = this;
 		svc.draft = DraftSettings;
 		svc.draft.drafted = [];
-		svc.GetTeam = function (shortName) {
-			return svc.draft.teams.filter(function (t) {
-				return t.short_name === shortName.toUpperCase();
-			})[0];
-		};
-		
+
 		svc.PrepareDraft = function (shortName, year, success) {
 			if (!DraftSettings.isLoaded()) {
 				if (shortName === "") {
@@ -21,7 +16,10 @@
 				DataService
 					.GetDraft(year)
 					.success(function (data, status, headers, config) {
-						var team = svc.GetTeam(shortName);
+						var team = data.teams.filter(function (t) {
+							return t.short_name === shortName.toUpperCase();
+						})[0];
+
 						svc.draft = DraftSettings;
 						svc.draft.load(team, data);
 						success();
