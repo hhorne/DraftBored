@@ -2,12 +2,12 @@
 	/**
 	* @ngInject
 	*/
-	function DraftService($q, DataService, DraftSettings) {
+	function DraftService(DataService, DraftSettings) {
 		var svc = this;
 		svc.draft = DraftSettings;
 		svc.draft.drafted = [];
-		svc.GetTeam = function (shortName, teams) {
-			return teams.filter(function (t) {
+		svc.GetTeam = function (shortName) {
+			return svc.draft.teams.filter(function (t) {
 				return t.short_name === shortName.toUpperCase();
 			})[0];
 		};
@@ -21,7 +21,7 @@
 				DataService
 					.GetDraft(year)
 					.success(function (data, status, headers, config) {
-						var team = svc.GetTeam(shortName, data.teams);
+						var team = svc.GetTeam(shortName);
 						svc.draft = DraftSettings;
 						svc.draft.load(team, data);
 						success();
@@ -45,6 +45,11 @@
 			svc.draft.drafted.push(prospect);
 			svc.draft.picks.splice(0, 1);
 			svc.draft.round = svc.draft.picks[0].round_num;
+		};
+
+		svc.SimulatePick = function () {
+			var topPick = svc.draft.prospects[0];
+			svc.SelectProspect(topPick);
 		};
 	}
 

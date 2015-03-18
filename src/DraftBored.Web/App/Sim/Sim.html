@@ -9,10 +9,8 @@
 		<ul>
 			<li ng-class="{currentRound: r === vm.draft.round }" ng-repeat="r in vm.draft.rounds">{{r}}</li>
 		</ul>
-		<a href="" class="startStop" ng-click="vm.toggleSim()">
-			<span class="startStop glyphicon" ng-class="{ 'glyphicon-play': !vm.draft.isInProgress(), 'glyphicon-pause': vm.draft.isInProgress() }"></span>
-			{{ vm.isInProgress() ? "Pause Draft" : "Start Draft" }}
-		</a>
+		<span class="glyphicon glyphicon-play" ng-show="!vm.draft.isInProgress()"></span><a class="start" ng-click="vm.startSim()" ng-show="!vm.draft.isInProgress()">Start Draft</a>
+		<span class="glyphicon glyphicon-pause" ng-show="vm.draft.isInProgress()"></span><a class="stop" ng-click="vm.pauseSim()" ng-show="vm.draft.isInProgress()">Pause Draft</a>
 	</div>
 
 	<div class="draftOrder">
