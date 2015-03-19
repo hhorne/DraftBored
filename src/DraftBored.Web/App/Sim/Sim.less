@@ -57,7 +57,7 @@
 .rounds ul {
 	display: inline-block;
 	list-style: none;
-	margin: 6px 0 0 24px;
+	margin: 6px 0 0 12px;
 	padding: 0;
 }
 
@@ -71,12 +71,12 @@
 	width: 32px;
 }
 
-.rounds .currentRound {
+.rounds .selectedRound {
 	background-color: rgba(0, 0, 0, 0.8);
 	color: white;
 }
 
-.rounds .currentRound, .rounds .finished {
+.rounds .selectable {
 	cursor: pointer;
 }
 
@@ -97,5 +97,10 @@
 	cursor: pointer;
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	font-size: 16px;
-	margin-left: 12px;
+}
+
+.controlButton {
+	display: inline-block;
+	margin-left: 24px;
+	width: 100px;
 }

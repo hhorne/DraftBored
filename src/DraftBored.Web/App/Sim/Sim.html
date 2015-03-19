@@ -6,11 +6,13 @@
 	</div>
 	<div class="rounds">
 		<h3>Rounds</h3>
+		<div class="controlButton">
+			<a class="start" ng-click="vm.startSim()" ng-show="!vm.draft.isInProgress()">Start Draft</a>
+			<a class="stop" ng-click="vm.pauseSim()" ng-show="vm.draft.isInProgress()">Pause Draft</a>
+		</div>
 		<ul>
-			<li ng-class="{currentRound: r === vm.draft.round }" ng-repeat="r in vm.draft.rounds">{{r}}</li>
+			<li ng-class="{selectedRound: r === vm.draftedSearch.selection.round_num, selectable: r <= vm.draft.round }" ng-repeat="r in vm.draft.rounds" ng-click="vm.filterByRound(r)">{{r}}</li>
 		</ul>
-		<span class="glyphicon glyphicon-play" ng-show="!vm.draft.isInProgress()"></span><a class="start" ng-click="vm.startSim()" ng-show="!vm.draft.isInProgress()">Start Draft</a>
-		<span class="glyphicon glyphicon-pause" ng-show="vm.draft.isInProgress()"></span><a class="stop" ng-click="vm.pauseSim()" ng-show="vm.draft.isInProgress()">Pause Draft</a>
 	</div>
 
 	<div class="draftOrder">
@@ -26,7 +28,7 @@
 	<div class="draftPool">
 		<h3>Drafted</h3>
 		<div class="prospectList scrollbar style-1">
-			<div ng-repeat="prospect in vm.draft.drafted" ng-include src="'App/ProspectCard/DraftedCard.html'"></div>
+			<div ng-repeat="prospect in vm.draft.drafted | filter: { selection: { round_num: vm.draftedSearch.selection.round_num } }" ng-include src="'App/ProspectCard/DraftedCard.html'"></div>
 		</div>
 	</div>
 	<div class="draftPool">

@@ -12,10 +12,22 @@
 			vm.draft = DraftService.draft;
 		};
 		
+		vm.draftedSearch = {
+			selection: {
+				round_num: 1,
+			},
+		};
+
 		DraftService.PrepareDraft(teamId, 2015, setDraft);
 
 		vm.loop = function () {
+			var currentRound = vm.draft.round;
+			vm.draftedSearch.selection.round_num = vm.draft.round;
 			DraftService.SimulatePick();
+
+			if (currentRound !== vm.draft.round) {
+				vm.pauseSim();
+			}
 		};
 
 		vm.selectProspect = function (prospect) {
@@ -34,6 +46,12 @@
 			if (vm.draft.isInProgress()) {
 				vm.draft.stop();
 				$interval.cancel(loopPromise);
+			}
+		};
+
+		vm.filterByRound = function (round) {
+			if (round <= vm.draft.round) {
+				vm.draftedSearch.selection.round_num = round;
 			}
 		};
 	}
